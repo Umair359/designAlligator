@@ -1,0 +1,192 @@
+/* ************************************************* */
+/* ***************** Our Portfolio ****************** */
+/* ************************************************* */
+@media (max-width:1145px) and (min-width:768px) {
+  .portfolio-title {
+    font-size: 15px !important;
+  }
+
+  .portfolio-item {
+    font-size: 12px !important;
+  }
+
+}
+
+@media (max-width:937px) and (min-width:768px) {
+  .portfolio-item {
+    margin: 6px 0 !important;
+    line-height: 20px !important;
+  }
+}
+
+
+.our_work_main h2 {
+  font-size: 24px;
+  margin: 10px 0px !important;
+}
+
+.our_work_main p {
+  /* font-family: sans-serif !important; */
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 14px 0px;
+  font-weight: 400;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.logo-designs_main {
+  margin-top: 20px;
+  position: relative;
+}
+
+.design_img_container {
+  position: relative;
+}
+
+.design_img_container img {
+  width: 95% !important;
+  position: relative;
+}
+
+.hover_effect {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 95%;
+  height: 100%;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.hover_effect:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.web-designs_main {
+  margin-top: 20px;
+}
+
+.web_design_img_container {
+  overflow: hidden;
+}
+
+.web_design_img_container img {
+  width: 100% !important;
+
+  transition: all 1s ease;
+}
+
+.web_design_img_container img:hover {
+  transform: scale(1.2);
+}
+
+.app_designs_main {
+  margin-top: 20px;
+  position: relative;
+}
+
+.app_design_img_container {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.app_design_img_container img {
+  width: 95% !important;
+  position: relative;
+  object-position: center;
+  object-fit: initial;
+}
+
+.app_hover_effect {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 95%;
+  height: 100%;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.app_hover_effect:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.our_picks_main {
+  margin-top: 20px;
+}
+
+.our_picks_img_container {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.our_picks_img_container img {
+  width: 95% !important;
+  position: relative;
+  object-position: center;
+  object-fit: initial;
+  min-height: 100%;
+}
+
+.our_picks_hover_effect {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 95%;
+  height: 100%;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.our_picks_hover_effect:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video_animations_main {
+  margin-top: 20px;
+}
+
+.video_animations_ {
+  height: 300px;
+}
+
+/* ************************************************* */
+/* ***************** Contact Form ****************** */
+/* ************************************************* */
+.contact_form_main {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  width: 100vw;
+  max-width: 100%;
+  background-image: url("../images/contact-us-bg.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.contact_form_container {
+  background-color: #ffffffa6;
+  box-shadow: 0px 10px 40px -15px rgb(0 0 0 / 58%);
+  padding: 25px 60px 25px 60px;
+  margin: 0px 0px 0px -4px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.contact_form_main img {
+  max-height: 100% !important;
+}
+
+@media (max-width: 640px) {
+  .contact_form_container {
+    padding: 25px 35px 25px 35px;
+  }
+}
+@media screen and (min-width:1450px) {
+  .our_picks_img_container {
+    height: 400px;
+  }
+}

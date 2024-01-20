@@ -1,0 +1,1223 @@
+.service_page a{
+  color: #E50A5C !important;
+  text-decoration: none !important;
+  font-weight: 500;
+}
+/* ************************************************* */
+/* ***************** Services****************** */
+/* ************************************************* */
+/* ************************************************* */
+/* ***************** What We Do****************** */
+/* ************************************************* */
+.what_we_do_main>h1 {
+  font-size: 55px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.what_we_do_main>p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.service_box {
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.service_box img {
+  width: 55px;
+}
+
+.service_box h5 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.service_box p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* ************************************************* */
+/* ***************** What We Do****************** */
+/* ************************************************* */
+.branding_design {
+  margin: 70px 0px;
+}
+
+.branding_design_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.branding_design_content h2 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+}
+
+.branding_design_content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  margin-bottom: 20px !important;
+}
+
+.branding_design_content ul {
+  list-style-image: url("../images/checkbox.png");
+  padding-left: 1.5rem !important;
+}
+
+.branding_design_content li {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+/* ************************************************* */
+/* ***************** Logo Design ****************** */
+/* ************************************************* */
+
+.logo_banner_main {
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  background-image: url("../images/logo-bg.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
+}
+
+.logo-banner-left {
+  padding: 60px 0px;
+}
+
+.logo-banner-left h1 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.logo-banner-left p {
+  margin: 15px 0px;
+  font-size: 15px;
+}
+
+.logo_form_container {
+  padding: 22px 22px 22px 22px;
+  background-color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  margin: 15px 0px;
+}
+
+.logo_form_container input,
+.logo_form_container input[type="text"],
+.logo_form_container input[type="text"]:focus-visible,
+.logo_form_container input[type="text"]:focus {
+  width: 100%;
+  border: none !important;
+  border-bottom: 1px solid lightgray !important;
+  background-color: transparent;
+  padding-bottom: 10px;
+  /* font-family: sans-serif !important; */
+  font-size: 15px;
+  margin: 10px 0px;
+  outline: none;
+}
+
+.logo_banner_right {
+  position: relative;
+}
+
+.logo_banner_right img {
+  position: absolute;
+  margin-bottom: -75px;
+  width: 100%;
+  height: 100%;
+}
+
+.process-section img {
+  width: 80% !important;
+  height: 80% !important;
+}
+
+@media (max-width:576px) {
+  .process-section img {
+    width: 30% !important;
+    height: 30% !important;
+  }
+}
+
+@media (max-width:992px) {
+  .process-section img {
+    width: 50% !important;
+    height: 50% !important;
+  }
+}
+
+.new_services_container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 467px;
+  width: 100%;
+  padding: 0px 10px;
+  border-bottom: 5px solid #04e4ff;
+}
+
+.new_service_section-1,
+.new_service_section-2,
+.new_service_section-3,
+.new_service_section-4 {
+  width: 100%;
+  border-right: 1px solid white;
+  height: 100%;
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
+  height: 462px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.new_service_section-1>div,
+.new_service_section-2>div,
+.new_service_section-3>div,
+.new_service_section-4>div {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  right: 5px;
+}
+
+.new_service_content {
+  transform: translateX(100%);
+  transition: all 0.5s;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.service_content_container p {
+  height: 250px;
+}
+
+.new_service_section-1 .service_heading_container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transform: translateY(430%);
+  transition: all 0.3s;
+}
+
+.new_service_section-2 .service_heading_container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transform: translateY(430%);
+  transition: all 0.3s;
+}
+
+.new_service_section-3 .service_heading_container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transform: translateY(430%);
+  transition: all 0.3s;
+}
+
+.new_service_section-4 .service_heading_container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transform: translateY(430%);
+  transition: all 0.3s;
+}
+
+.service_heading_container>h3 {
+  font-size: 36px;
+  font-weight: 600;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.service_heading_container>h4 {
+  font-weight: 600;
+  color: white;
+  font-size: 23px;
+  /* letter-spacing: 1px; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.service_bg_1 .new_service_section-1,
+.service_bg_2 .new_service_section-2,
+.service_bg_3 .new_service_section-3,
+.service_bg_4 .new_service_section-4 {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.service_bg_1 .new_service_section-1 .service_heading_container,
+.service_bg_2 .new_service_section-2 .service_heading_container,
+.service_bg_3 .new_service_section-3 .service_heading_container,
+.service_bg_4 .new_service_section-4 .service_heading_container {
+  transform: translateY(0%);
+}
+
+.service_bg_1 .new_service_section-1 .new_service_content,
+.service_bg_2 .new_service_section-2 .new_service_content,
+.service_bg_3 .new_service_section-3 .new_service_content,
+.service_bg_4 .new_service_section-4 .new_service_content {
+  display: block;
+  transform: translateX(0%);
+}
+
+/* accordian starts */
+.accordian {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  --bs-accordion-active-color: black;
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-btn-icon-width: 0rem;
+}
+
+.accordion-collapse {
+  border: none;
+}
+
+.accordian-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+.accordion-header {
+  border-bottom: 3px solid #197918;
+}
+
+.accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordian-number {
+  font-size: 60px;
+  color: #197918;
+}
+
+.accordian-title {
+  padding-left: 20px;
+  font-size: 26px
+}
+
+.accordian-desc {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+/* accordian ends */
+
+@media (max-width:1024px) {
+  .services-images-section {
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  .services-images-accordian {
+    display: none;
+  }
+
+  .services-images-section {
+    display: block;
+  }
+}
+
+@media (max-width:639px) {
+  .mobile-service-heading {
+    font-size: 27px !important;
+  }
+
+  .accordion-header {
+    border-bottom: 2px solid #197918;
+  }
+
+  .accordian {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .accordian-image {
+    /* width: 100%; */
+    margin-bottom: 10px;
+  }
+
+  .accordian-number {
+    font-size: 28px;
+    color: #197918;
+  }
+
+  .accordian-title {
+    padding-left: 10px;
+    font-size: 14px
+  }
+
+  .accordian-desc {
+    line-height: 23px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width:640px) {
+
+  .accordian-image {
+    margin-bottom: 10px;
+  }
+
+  .accordian-number {
+    font-size: 40px;
+    color: #197918;
+  }
+
+  .accordian-title {
+    padding-left: 20px;
+    font-size: 23px
+  }
+
+  .accordian-desc {
+    line-height: 27px;
+    font-size: 16px;
+  }
+}
+
+/* ************************************************* */
+/* ***************** Logo Designing Info ****************** */
+/* ************************************************* */
+.Logo_designers_background {
+  background-image: url("../images/logo_deigners_bg.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo_designing_info_main {
+  background-color: #fff;
+  padding: 60px 50px;
+}
+
+.logo_designing_info_main img {
+  /* height: 100%; */
+}
+
+.logo_designing_info_left {
+  padding-right: 20px;
+}
+
+.logo_designing_info_main h6,.logo_designing_info_main h3{
+  color: #E50A5C;
+  font-size: 22px;
+  margin-bottom: 9px;
+  font-weight: 500;
+}
+
+.logo_designing_info_main h2 {
+  font-size: 31px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding-right: 20px;
+}
+
+.logo_designing_info_left p {
+  font-size: 16px;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  /* font-family: sans-serif !important; */
+  padding: 10px 0px;
+}
+
+@media (max-width:768px) {
+  .logo_designing_info_main {
+    padding: 20px 5px;
+  }
+}
+
+/* ************************************************* */
+/* ***************** Expert Designers ****************** */
+/* ************************************************* */
+.expert_designers_main {
+  padding: 20px 0px;
+}
+
+.expert_designers_main h6 {
+  color: #E50A5C;
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+
+.expert_designers_main h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.expert_designers_main p {
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  /* font-family: sans-serif !important; */
+}
+
+/* ************************************************* */
+/* ***************** Creativity ****************** */
+/* ************************************************* */
+.creativity_main {
+  background-image: url("../images/creativity.webp");
+  width: 100vw;
+  max-width: 100%;
+  padding: 50px 0px;
+}
+
+.creativity_main h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 30px 0px 10px 0px;
+}
+
+.creativity_main p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  /* font-family: sans-serif !important; */
+  padding-bottom: 10px;
+}
+
+.about_designers>div:first-child img {
+  width: 70%;
+  /* height: 200px; */
+  padding-right: 20px;
+}
+
+.about_designers>div:last-child {
+  padding-right: 5px;
+}
+
+.about_designers h6 {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.about_designers p {
+  text-align: left;
+}
+
+.talk_to_expert {
+  font-size: 18px;
+  /* font-family: sans-serif !important; */
+  color: #E50A5C;
+  background-color: #ffffff;
+  border: 1px solid #E50A5C;
+
+  border-radius: 5px;
+  padding: 15px 40px;
+  margin-top: 30px;
+  transition: all 0.5s;
+  width: fit-content;
+}
+
+.talk_to_expert:hover {
+  background-color: #E50A5C;
+  color: white;
+}
+
+.hire_a_professional {
+  font-size: 18px;
+  /* font-family: sans-serif !important; */
+  color: #E50A5C;
+  background-color: #ffffff;
+  border: 1px solid #E50A5C;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 15px 40px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+  width: fit-content;
+}
+
+.hire_a_professional:hover {
+  color: white;
+  background-color: #E50A5C;
+  border: 1px solid #E50A5C;
+}
+.process_sub_heading{
+  font-size: 42px;
+              text-align: center;
+              font-weight: 800;
+              padding-bottom: 10px;
+}
+
+/* ************************************************* */
+/* ***************** Logos Slider ****************** */
+/* ************************************************* */
+.logo_slider_main h6 {
+  color: #E50A5C;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.logo_slider_main h4 {
+  font-size: 34px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.logo_slider_main p {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  /* font-family: sans-serif !important; */
+  padding-bottom: 10px;
+}
+
+.logo_slider_main h1>span {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.logo_slider_main span {
+  font-style: normal;
+  font-size: 34px;
+  font-weight: bolder;
+  /* font-family: sans-serif !important; */
+}
+
+.logo_slider_main .slick-dots li button,
+.logo_slider .slick-dots li button:before {
+  /* filter: grayscale(100%); */
+  /* -webkit-filter: grayscale(100%); */
+  margin-top: 20px;
+  font-size: 12px !important;
+  color: #E50A5C !important;
+}
+
+/* ************************************************* */
+/* ***************** Logo Packages ****************** */
+/* ************************************************* */
+.logo_card_main {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #eeeff4;
+  margin: 10px 0px 20px 0px;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.logo_card_main hr {
+  color: white;
+}
+
+.logo_package_1 {
+  background-image: url("../images/package_bg_1.png");
+}
+
+.logo_package_2 {
+  background-image: url("../images/package_bg_2.png");
+}
+
+.logo_package_3 {
+  background-image: url("../images/package_bg_3.png");
+}
+
+.logo_package_header {
+  width: 90%;
+  height: 100px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: white;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.logo_package_1 .logo_package_header h3 {
+  color: #4a0379;
+  font-weight: 700;
+  font-family: "Poppins" !important;
+  font-display: swap;
+
+  margin-bottom: 0%;
+  font-size: 28px;
+}
+
+.logo_package_1 .logo_package_header h6 {
+  color: #4a0379;
+}
+
+.logo_package_2 .logo_package_header h3 {
+  color: #ff9130;
+  font-weight: 700;
+  font-family: "Poppins" !important;
+  font-display: swap;
+
+  margin-bottom: 0%;
+  font-size: 28px;
+}
+
+.logo_package_2 .logo_package_header h6 {
+  color: #ff9130;
+}
+
+.logo_package_3 .logo_package_header h3 {
+  color: #13e196;
+  font-weight: 700;
+  font-family: "Poppins" !important;
+  font-display: swap;
+
+  margin-bottom: 0%;
+  font-size: 28px;
+}
+
+.logo_package_3 .logo_package_header h6 {
+  color: #13e196;
+}
+
+.package_content {
+  height: 230px;
+  overflow-y: auto;
+  margin-right: 10px;
+}
+
+.logo_package_1 .package_content::-webkit-scrollbar {
+  margin-top: 3px;
+  width: 5px;
+  cursor: pointer;
+}
+
+.logo_package_1 .package_content::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.logo_package_1 .package_content::-webkit-scrollbar-thumb {
+  background: #4a0379;
+  border-radius: 10px;
+  outline: 1px solid #fff;
+  cursor: pointer;
+}
+
+.logo_package_2 .package_content::-webkit-scrollbar {
+  margin-top: 3px;
+  width: 5px;
+  cursor: pointer;
+}
+
+.logo_package_2 .package_content::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.logo_package_2 .package_content::-webkit-scrollbar-thumb {
+  background: #ff9130;
+  border-radius: 10px;
+  outline: 1px solid #fff;
+  cursor: pointer;
+}
+
+.logo_package_3 .package_content::-webkit-scrollbar {
+  margin-top: 3px;
+  width: 5px;
+  cursor: pointer;
+}
+
+.logo_package_3 .package_content::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.logo_package_3 .package_content::-webkit-scrollbar-thumb {
+  background: #13e196;
+  border-radius: 10px;
+  outline: 1px solid #fff;
+  cursor: pointer;
+}
+
+.package_content>div {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 7px 40px;
+  margin-right: 20px;
+}
+
+.package_content>div:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.package_content>div svg {
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.logo_package_1 button {
+  color: #4a0379;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.logo_package_2 button {
+  color: #ff9130;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.logo_package_3 button {
+  color: #13e196;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 30px;
+}
+
+@media (max-width:767px) {
+
+  .logo_package_1 .logo_package_header h3,
+  .logo_package_2 .logo_package_header h3,
+  .logo_package_3 .logo_package_header h3 {
+    font-size: 20px;
+  }
+
+  .logo_package_header {
+    width: 95%;
+    height: 70px;
+  }
+
+  .card-description {
+    /* font-size: 10px; */
+  }
+
+  .package_content>div svg {
+    width: 20px;
+  }
+
+  .package_content>div {
+    margin-right: 5px;
+    padding: 7px 15px;
+  }
+
+  .card-description {
+    font-size: 13px;
+  }
+
+  .package_content {
+    height: 180px;
+  }
+
+  .amount {
+    font-size: 23px;
+  }
+
+  .month {
+    font-size: 14px;
+  }
+  .process_sub_heading{
+    font-size: 34px;
+  }
+  .logo_designing_info_left {
+    padding-right: 0px;
+}
+.logo_designing_info_main h2 {
+  padding-right: 0px;
+}
+}
+
+@media (min-width:400px) and (max-width:767px) {
+  .services-slider-image {
+    width: 50%;
+  }
+  
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+  .logo_card_main {
+    width: 100%;
+    margin: 10px 0px 14px 0px;
+  }
+
+  .package_content {
+    height: 150px;
+  }
+
+  .package_content>div {
+    margin-right: 6px;
+    padding: 7px 17px;
+  }
+
+  .logo_package_1 .logo_package_header h3,
+  .logo_package_2 .logo_package_header h3,
+  .logo_package_3 .logo_package_header h3 {
+    font-size: 18px;
+  }
+
+  .card-description {
+    font-size: 13px;
+  }
+
+  .package_content>div svg {
+    width: 30px;
+  }
+
+  .card-svg {
+    max-width: 73%;
+  }
+
+  .logo_package_header {
+    width: 90%;
+    height: 73px;
+  }
+
+  .logo-packages-row {
+    --bs-gutter-x: 0.2rem;
+  }
+
+  .amount {
+    font-size: 23px;
+  }
+
+  .month {
+    font-size: 14px;
+  }
+
+}
+
+/* ************************************************* */
+/* ***************** Brand an design ****************** */
+/* ************************************************* */
+/* ************************************************* */
+/* ***************** Our Agency ****************** */
+/* ************************************************* */
+.our_agency_main {
+  background-color: #f4f8f3;
+  padding: 30px 20px;
+}
+
+.our_agency_main h6 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.our_agency_main h4 {
+  font-size: 23px;
+  font-weight: 600;
+  padding: 20px 0px 5px 0px;
+}
+
+.our_agency_main p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  /* font-family: sans-serif !important; */
+}
+
+.our_agency_main img {
+  height: 100%;
+}
+
+.web_dev_award {
+  margin: 40px 0px;
+}
+
+.award_image {
+  border-right: 3px solid #ebe5e5;
+}
+
+
+
+.web_dev_award img {
+  width: 220px;
+}
+
+.web_dev_award h6 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #197918;
+  margin-bottom: 0px;
+}
+
+.web_dev_award h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 15px !important;
+}
+
+@media (max-width:768px) {
+  .web_dev_award img {
+    width: 160px;
+  }
+
+  .web_dev_award h1 {
+    font-size: 34px;
+  }
+
+  .award_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .award_content {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* ************************************************* */
+/* ***************** Hosting Packages ****************** */
+/* ************************************************* */
+.package_container {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 40px 40px;
+}
+
+.package_container>div {
+  display: flex;
+  align-items: center;
+}
+
+.package_container h1 {}
+
+.package_container>div::before {
+  background-color: #197918;
+  width: 50px;
+  height: 20px;
+}
+
+.package_container span {}
+
+.package_container ul {
+  list-style-image: url("../images/check.png");
+}
+
+.package_container li {
+  position: relative;
+  padding: 5px 0px !important;
+}
+
+.package_container li>p {
+  position: absolute;
+  bottom: 8px;
+}
+
+.package_container button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  color: #197918;
+  border: 2px solid #197918;
+  transition: all 0.5s;
+}
+
+.package_container button:hover {
+  background-color: #E50A5C;
+  color: white;
+  border: 2px solid white;
+}
+
+.professional_seo {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.professional_seo h6 {
+  color: #E50A5C;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.professional_seo h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.section_1_img_box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google_serp .section_1_img_box {
+  height: 400px;
+}
+
+.google_serp .section_1_img_box img {
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.hiring_main .section_2_img_box {
+  height: 700px;
+}
+
+.hiring_main .section_2_img_box img {
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.award_box {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 20px 36px 0px rgba(0, 0, 0, 0.1);
+  padding: 40px 40px;
+}
+
+@media (max-width:767px) {
+  .section_2_img_box {
+    display: none;
+  }
+
+  .section_1_img_box {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ************************************************* */
+/* ***************** T-Shirt Design ****************** */
+/* ************************************************* */
+.custom_tshirt_design ul {
+  padding-left: 1.5rem !important;
+  list-style-image: url("../images/right-arrow.jpg");
+}
+
+.custom_tshirt_design ul>li {
+  padding-left: 5px;
+  margin: 5px 0px;
+  font-size: 16px;
+}
+.services_known_for li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.services_known_for li a:hover {
+  color: #E50A5C !important;
+}
+
+.service_chat_btn.chat_btn {
+  width: 180px !important;
+}
+
+.custom_tshirt_design .order_now {
+  margin-top: 15px;
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #E50A5C;
+}
+
+.best_tshirt_designers h1 {
+  font-size: 34px;
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.best_tshirt_designers h1 span {
+  color: #197918;
+}
+
+.best_tshirt_designers h6 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.best_tshirt_designers p:first-child {
+  font-size: 18px;
+}
+
+.service_portfolio_slider{
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  max-height: 460px;
+}
+.service_portfolio_slider img{
+  object-position: top;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .about_designers {
+    margin-bottom: 30px;
+  }
+
+  .about_designers>div:first-child {
+    text-align: center;
+  }
+
+  .about_designers>div:first-child img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .about_designers p {
+    text-align: center;
+  }
+  .custom_tshirt_design .order_now {
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+  .service_chat_btn.chat_btn {
+    width: 150px !important;
+    font-size: 13px;
+}
+.service_portfolio_slider{
+  width: 100%;
+}
+}
+@media screen and (min-width:1530px) {
+  .service_portfolio_slider{
+    max-height: 600px;
+  }  
+}

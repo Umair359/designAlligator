@@ -1,0 +1,78 @@
+.slick-slide[aria-hidden=true] a[href],
+.slick-slide[aria-hidden=true] area[href], 
+.slick-slide[aria-hidden=true] input:not([disabled]), 
+.slick-slide[aria-hidden=true] select:not([disabled]), 
+.slick-slide[aria-hidden=true] textarea:not([disabled]), 
+.slick-slide[aria-hidden=true] button:not([disabled]), 
+.slick-slide[aria-hidden=true] [tabindex]:not([disabled]), 
+.slick-slide[aria-hidden=true] [contenteditable=true]:not([disabled]){
+    visibility: hidden;
+}
+.back-to-top .top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 15px;
+  right: 15px;
+  background: #E50A5C;
+  background: #E50A5C;
+  z-index: 4;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  color: #ffffff;
+}
+
+.back-to-top .top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: black;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.back-to-top .top:hover,
+.back-to-top .top:focus {
+  color: #ffffff;
+}
+
+.back-to-top .top:hover::before,
+.back-to-top .top:focus::before {
+  opacity: 1;
+  visibility: visible;
+}
+.w-95 {
+  max-width: 95vw;
+}
+.w-90 {
+  max-width: 90vw;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.whatsapp_widget_wrapper {
+  bottom: 70px !important;
+}
+.color_green{
+  color: #E50A5C;
+}
+
+@media screen and (max-width: 767px) {
+  .w-90 {
+    width: 100vw !important;
+  }
+  .w-95 {
+    width: 100vw !important;
+  }
+}

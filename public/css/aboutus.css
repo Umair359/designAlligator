@@ -1,0 +1,253 @@
+.about_us_page a{
+  color: #E50A5C !important;
+  text-decoration: none !important;
+  font-weight: 500;
+}
+/* ************************************************* */
+/* ***************** About Banner ****************** */
+/* ************************************************* */
+.about_banner {
+  width: 100vw;
+  max-width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/about-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px;
+}
+
+.about_banner h2 {
+  font-size: 44px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  /* font-family: sans-serif !important; */
+}
+
+.about_banner p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* ************************************************* */
+/* ***************** About Our Company****************** */
+/* ************************************************* */
+
+.about_our_company_main {
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  background-image: url("../images/about-and-services.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_our_company {
+  background-color: #f4f8f3;
+  margin: 60px 0px;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_our_company h5 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 9px;
+  font-weight: 600;
+}
+
+.about_our_company h1 {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.about_our_company h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+}
+
+.about_our_company p {
+  font-size: 16px;
+}
+
+.about-img-container {
+  display: flex;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:991px) {
+  .about-img {
+    display: none;
+  }
+}
+
+
+/* ************************************************* */
+/* ***************** Known For****************** */
+/* ************************************************* */
+.known_for_left_section h5 {
+  font-size: 25px;
+}
+
+.known_for_left_section h6 {
+  font-size: 18px;
+  /* font-family: sans-serif !important; */
+  margin-bottom: 3px;
+}
+
+.known_for_left_section h5>span {
+  color: black;
+}
+
+.known_for_right_section h5 {
+  font-size: 25px;
+}
+
+.known_for_right_section h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.known_for_right_section h2>span {
+  color: black;
+  font-weight: 800;
+}
+
+.known_for_right_section h6 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.known_for_right_section p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.background-purple .progress-bar,
+.background-purple>.tooltip-inner {
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+.background-purple.tooltip .tooltip-arrow::before {
+  border-right-color: #cc2b5e !important;
+}
+
+.background-blue .progress-bar,
+.background-blue>.tooltip-inner {
+  background: linear-gradient(to right, #000428, #004e92);
+}
+
+.background-blue.tooltip .tooltip-arrow::before {
+  border-right-color: #000428 !important;
+}
+
+.background-orange .progress-bar,
+.background-orange>.tooltip-inner {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.background-orange.tooltip .tooltip-arrow::before {
+  border-right-color: #ff512f !important;
+}
+
+.background-green .progress-bar,
+.background-green>.tooltip-inner {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.background-green.tooltip .tooltip-arrow::before {
+  border-right-color: #43cea2 !important;
+}
+
+.background-pink .progress-bar,
+.background-pink>.tooltip-inner {
+  background: linear-gradient(to right, #3a1c71, #ffaf7b);
+}
+
+.background-pink.tooltip .tooltip-arrow::before {
+  border-right-color: #3a1c71 !important;
+}
+
+.background-dark .progress-bar,
+.background-dark>.tooltip-inner {
+  background: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+.background-dark.tooltip .tooltip-arrow::before {
+  border-right-color: #2b5876 !important;
+}
+
+@media (max-width:767px) {
+  .known-for-list {
+    margin-bottom: 20px;
+  }
+
+  .digital-agency {
+    font-size: 35px !important;
+    line-height: 36px;
+  }
+}
+
+/* ************************************************* */
+/* ***************** Readt To Work ****************** */
+/* ************************************************* */
+
+.ready_to_work {
+  background-color: #0e1408;
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  color: white;
+  padding: 50px 0px;
+  margin-top: 60px;
+}
+
+.ready_to_work h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.ready_to_work h1>span {
+  color: #E50A5C;
+}
+
+.ready_to_work p {
+  font-size: 16px;
+  font-weight: 300;
+  /* font-family: sans-serif !important; */
+}
+
+.ready_to_work button {
+  color: #E50A5C;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  /* font-family: sans-serif !important; */
+  font-weight: 300;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.ready_to_work button:hover {
+  background-color: #E50A5C;
+  color: white;
+}
