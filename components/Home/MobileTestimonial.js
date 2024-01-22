@@ -27,7 +27,7 @@ function MobileTestimonial({ d }) {
                     className="testimonial-image rounded-circle img-fluid shadow-1-strong"
                     alt="smaple image"
                     priority
-                    
+
                   />
                 </div>
                 <p className="testimonial-designation mb-0">{d.designation}</p>

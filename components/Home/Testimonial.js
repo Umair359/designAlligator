@@ -14,42 +14,42 @@ const Testimonial = ({ data }) => {
       person: Testimonial1,
       comment:
         "Design Alligators helped us revamp our brand, and it was one of the best decisions we ever made. Their team created a beautiful, cohesive design that truly captured our brand's essence. The team was highly communicative, responsive, and easy to work with.",
-      designation: "- Farah Johnson, Marketing Director at ABC Company",
+      designation: "John Anderson",
     },
     {
       bgColor: "white",
       person: Testimonial2,
       comment:
         "We've worked with a lot of Digital Design Agencies over the years, but Design Alligators truly stands out. They have an incredible eye for design and are able to create work that is both beautiful and functional.",
-      designation: "- Mark Williams, Creative Director at Dream Agency",
+      designation: "John Anderson",
     },
     {
       bgColor: "white",
       person: Testimonial4,
       comment:
         "Working with Design Alligators was an absolute pleasure. They were able to take our vision and turn it into a reality. The team was professional, knowledgeable, and easy to work with. We highly recommend Design Alligators to anyone looking for Digital Design Agency.",
-      designation: " - Kim Chan, CEO of Jhan Corporation",
+      designation: " John Anderson",
     },
     {
       bgColor: "white",
       person: Testimonial1,
       comment:
         "Design Alligators helped us revamp our brand, and it was one of the best decisions we ever made. Their team created a beautiful, cohesive design that truly captured our brand's essence. The team was highly communicative, responsive, and easy to work with.",
-      designation: "- Farah Johnson, Marketing Director at ABC Company",
+      designation: "John Anderson",
     },
     {
       bgColor: "white",
       person: Testimonial2,
       comment:
         "We've worked with a lot of Digital Design Agencies over the years, but Design Alligators truly stands out. They have an incredible eye for design and are able to create work that is both beautiful and functional.",
-      designation: "- Mark Williams, Creative Director at Dream Agency",
+      designation: "John Anderson",
     },
     {
       bgColor: "white",
       person: Testimonial4,
       comment:
         "Working with Design Alligators was an absolute pleasure. They were able to take our vision and turn it into a reality. The team was professional, knowledgeable, and easy to work with. We highly recommend Design Alligators to anyone looking for Digital Design Agency.",
-      designation: " - Kim Chan, CEO of Jhan Corporation",
+      designation: "John Anderson",
     },
   ];
   let testimonials = data ? data : testimonialData;
@@ -66,8 +66,8 @@ const Testimonial = ({ data }) => {
     <div className="home_testimonials_main testimonial_slider_main">
       <div style={{ width: "100vw", maxWidth: "100%" }}>
         <div className="text-center">
-          <h5 className="text-green">Testimonials</h5>
-          <h4>What Our Clients Are Saying</h4>
+          <h5 style={{ textTransform: "uppercase", fontSize: "18px" }} className="text-green">Testimonials</h5>
+          <h4 style={{ fontSize: "60px", textTransform: "uppercase" }} >What Our Clients Are Saying</h4>
         </div>
         <div style={{ width: "100%", overflowX: "hidden" }}>
           <Slider {...settings}>

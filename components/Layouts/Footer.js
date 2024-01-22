@@ -29,7 +29,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className="footer_links">
-          <Col sm={6} md={7} lg={5} className="pb-5 ">
+          <Col sm={6} md={7} lg={5} className="pb-5" style={{ padding: "0px" }}>
             <h4 className="pb-2">Quick Links</h4>
             <Row className="gx-4 ">
               <Col md={6} className="d-flex flex-column gap-2">
@@ -68,7 +68,7 @@ const Footer = () => {
               </Col>
             </Row>
           </Col>
-          <Col sm={6} md={5} lg={2} className="d-flex flex-column gap-2 pb-5 ">
+          <Col style={{ padding: "0px" }} sm={6} md={5} lg={2} className="d-flex flex-column gap-2 pb-5 ">
             <h4 className="pb-2">Company</h4>
             <Link href="/about-us">About Us</Link>
             <Link href="/portfolios">Portfolio</Link>
@@ -80,6 +80,7 @@ const Footer = () => {
             sm={6}
             md={7}
             lg={3}
+            style={{ padding: "0px" }}
             className="d-flex flex-column gap-2 footer_info gap-2 pb-5 "
           >
             <h4 className="pb-2">Information</h4>
@@ -124,7 +125,7 @@ const Footer = () => {
               </div>
             </div>
           </Col>
-          <Col sm={6} md={5} lg={2}>
+          <Col style={{ padding: "0px" }} sm={6} md={5} lg={2}>
             <h4 className="pb-2">Social Connect</h4>
             <div className="d-flex align-items-center social_icons">
               <div>
@@ -186,7 +187,7 @@ const Footer = () => {
         </Row>
       </Container>
       <hr />
-      <div className="text-center copyrights">
+      <div style={{ fontWeight: "bold", fontSize: "18px" }} className="text-center copyrights">
         © 2023 Design Alligators. All Rights Reserved.{" "}
       </div>
     </div>

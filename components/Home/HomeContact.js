@@ -107,7 +107,7 @@ const HomeContact = () => {
                       className="theme_btn w-100"
                     // onClick={(e) => handleEmail(e)}
                     >
-                      Send
+                      Submit
                     </button>
                   </Col>
                 </Row>

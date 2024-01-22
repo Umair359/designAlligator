@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import Stars from '../../public/images/NewUI/stars.png'
 function ScreenTestimonial({ d }) {
   return (
     <div className="screen-testimonial">
@@ -14,7 +14,34 @@ function ScreenTestimonial({ d }) {
         }}
       >
         <Container fluid>
-          <Row className="gx-0 my-5 justify-content-center testimonial-content-container">
+          <div style={{ marginTop: "20px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <div style={{ width: "80px", height: "80px", borderRadius: "50%", overflow: "hidden" }}>
+
+              <Image
+                className="testimonial-image"
+                src={d.person}
+                alt="client"
+                priority
+              />
+            </div>
+            <Image style={{ marginTop: "10px" }} src={Stars} alt="stars.png" />
+            <p style={{ textAlign: "center", fontWeight: "bold", width: "80%", marginTop: "20px" }} className="testimonial-comment">{d.comment}</p>
+            <h4 style={{ fontSize: "16px", color: "#444444 !important" }} className="pt-2 testimonial-designation">
+              {d.designation}
+            </h4>
+            <h5 style={{ fontSize: "16px", color: "#999999" }} >1 Day Ago</h5>
+          </div>
+
+
+        </Container>
+      </div>
+    </div>
+  );
+}
+
+export default ScreenTestimonial;
+/*
+<Row className="gx-0 my-5 justify-content-center testimonial-content-container">
             <Col md={10}>
               <Row className="gx-0 testimonial_main_container">
                 <Col
@@ -38,11 +65,4 @@ function ScreenTestimonial({ d }) {
                 </Col>
               </Row>
             </Col>
-          </Row>
-        </Container>
-      </div>
-    </div>
-  );
-}
-
-export default ScreenTestimonial;
+ */

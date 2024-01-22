@@ -57,7 +57,7 @@
 
 .theme_btn {
   margin-top: 15px;
-  padding: 10px 40px;
+  padding: 20px 40px;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -66,7 +66,9 @@
   cursor: pointer;
   border: none;
   background-color: #e50a5c;
-  box-shadow: -7.492px 18.544px 30px 0px #e50a5c66 !important;
+  box-shadow: -7.492px 8.544px 30px 0px #14029b44 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .theme_btn:hover {
@@ -739,20 +741,25 @@
 /* ************************************************* */
 .our-clients-main h6 {
   color: #e50a5c;
-  font-size: 28px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .our-clients-main h3 {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 800;
+  text-transform: uppercase;
+  color: #444444;
 }
 
 .our-clients-main p {
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 18px;
   margin: 15px 0px !important;
-  color: #686767;
+  color: #444444;
+  font-weight: bold;
 }
 
 .clients_slider .slick-dots li button,
@@ -808,8 +815,8 @@
   background-color: white;
 }
 
-.home_contact_form_container h1 {
-  font-size: 42px;
+.home_contact_form_container h3 {
+  font-size: 60px;
   font-weight: 800;
 }
 
@@ -829,14 +836,19 @@
   padding-bottom: 10px;
   font-family: sans-serif;
   font-display: swap;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px 0px;
   outline: none;
+  font-family: Gotham;
+  padding-bottom: 20px;
+  margin-top: 10px;
 }
 .home_contact_form_container input[type="text"]::placeholder,
 .home_contact_form_container textarea::placeholder {
-  color: black;
+  color: rgb(26, 26, 26);
   font-weight: bold;
+  font-family: Gotham;
+  font-size: 20px;
 }
 .home_contact_form_container textarea {
   width: 100%;
@@ -848,7 +860,6 @@
   font-size: 16px;
   margin: 10px 0px;
   color: #757575;
-  padding: 10px;
 }
 
 .home_contact_form_container textarea:focus-visible {
@@ -881,7 +892,7 @@
   margin-top: 0.1rem;
   line-height: 1.2;
   font-weight: 800;
-  font-size: 38px;
+  font-size: 60px;
   padding: 0px 20px;
 }
 
@@ -910,9 +921,6 @@
 .Packages .Card {
   border-radius: 4%;
   text-align: center;
-  padding-top: 1%;
-  padding-right: 4%;
-  padding-left: 4%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: fit-content;
   padding-bottom: 1%;
@@ -922,7 +930,14 @@
   margin: 15px;
   position: relative;
 }
-
+.Packages .Card > div:first-child {
+  background: linear-gradient(to left, #cc2b5e, #753a88);
+  border-radius: 10px 10px 0 0;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
 .Packages .Card .Icon {
   height: 80px;
 }
@@ -934,31 +949,38 @@
 
 .Packages .Card .Title {
   font-size: 25px;
-  color: #e50a5c;
-}
-
-.Packages .Card:hover .Title,
-.Packages .Card:hover .Price .Cost {
-  color: #e50a5c;
+  align-self: flex-start;
+  margin-left: 30px;
 }
 
 .Packages .Card .SubTitle {
   font-size: 18px;
+  align-self: flex-start;
+  margin-left: 30px;
+  padding-bottom: 10px;
 }
 
 .Packages .Card .Info {
-  height: 180px;
+  height: 280px;
   overflow-y: scroll;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  margin-bottom: 30px;
+  border-top: 1px solid gainsboro;
+  padding-top: 30px;
 }
 
 .Packages .Card .Info li {
   font-size: 14px;
-  list-style: none;
+  list-style-type: "✔ ";
+  list-style-position: inside;
   padding-top: 2%;
   padding-bottom: 2%;
-  border-bottom: 1px solid #cac7c7;
-  color: #9e9999;
+  color: #222222;
 }
 
 .Packages .Card .Price {
@@ -972,7 +994,7 @@
   margin-top: 3%;
   font-size: 50px;
   font-weight: 800;
-  color: #e50a5c;
+  color: white;
   border-right: 1px solid #9e9999;
   padding-right: 2%;
   margin-right: 2%;
@@ -990,7 +1012,7 @@
   flex-direction: column;
 }
 .Packages .Card .Price .Discount span:last-child {
-  color: #ff0000db;
+  color: white;
 }
 
 .Packages .Card .Price .Discount .OldPrice {
@@ -999,22 +1021,14 @@
 }
 
 .Packages .Card .Button {
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff !important;
-  background: linear-gradient(to right, #cc2b5e, #753a88);
-  text-align: center;
-  padding: 1% 15%;
-  border-radius: 50px;
-  border: 1px solid #e50a5c;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.Packages .Card:hover .Button {
-  color: #fff !important;
-  background-color: #e50a5c;
-  border: 1px solid #e50a5c;
+  background-image: linear-gradient(45deg, #61127d, #f10161);
+  font-weight: 300;
+  border: none;
+  padding: 10px 30%;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  box-shadow: #14029b62 0px 7px 29px 0px;
 }
 
 .Packages .Card .Links {
@@ -1025,9 +1039,13 @@
   margin-top: 5%;
   font-size: 15px;
   gap: 10px;
-  color: #9e9999;
+  color: #222222;
+  padding: 10px 0;
+  border-top: 1px solid gainsboro;
 }
-
+.Packages .Card .Links a {
+  color: #222222 !important;
+}
 .Packages .Info::-webkit-scrollbar {
   margin-top: 3px;
   width: 7px;
@@ -1053,7 +1071,6 @@
 }
 .Packages .Card .Links a {
   text-decoration: none !important;
-  color: #9e9999 !important;
 }
 .Packages .Card .Links a:hover {
   color: #e50a5c !important;
@@ -1077,6 +1094,7 @@
 
   .Packages .Card .Price .Cost {
     font-size: 40px;
+    color: white;
   }
 
   .Packages .Card .Price .Discount {
@@ -1482,7 +1500,7 @@
   border-radius: 10px;
   color: white;
   font-size: 18px;
-  box-shadow: #13029b 0px 7px 29px 0px;
+  box-shadow: #14029b67 0px 7px 29px 0px;
 }
 .achievement {
   display: flex;
