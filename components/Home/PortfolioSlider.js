@@ -16,106 +16,106 @@ const portfolioData = [
   {
     image: Portfolio1,
     title: "Mobile Application",
-    link:"/services/mobile-app-design"
+    link: "/services/mobile-app-design"
   },
   {
     image: Portfolio2,
     title: "UI / UX Design",
-    link:"/services/website-ui-ux-design"
-    
+    link: "/services/website-ui-ux-design"
+
   },
   {
     image: Portfolio3,
     title: "Flyer Design",
-    link:"/services/flyer-design"
-    
+    link: "/services/flyer-design"
+
   },
   {
     image: Portfolio4,
     title: "Tshirt Design",
-    link:"/services/t-shirt-design"
-    
+    link: "/services/t-shirt-design"
+
   },
   {
     image: Portfolio5,
     title: "Ecommerce Development",
-    link:"/services/ecommerce-solution"
-    
+    link: "/services/ecommerce-solution"
+
   },
   {
     image: Portfolio6,
     title: "Logo Design",
-    link:"/services/logo-design"
-    
+    link: "/services/logo-design"
+
   },
   {
     image: Portfolio7,
     title: "illustrations",
-    link:"/portfolios"
-    
+    link: "/portfolios"
+
   },
   {
     image: Portfolio8,
     title: "Product Design",
-    link:"/portfolios"
-    
+    link: "/portfolios"
+
   },
 ];
 const PortfolioSlider = () => {
   const router = useRouter()
-    const settings = {
-        dots: false,
-        infinite: true,
-        draggable:true,
-        autoplay:true,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: false,
-              
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              initialSlide: 2,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      };
+  const settings = {
+    dots: false,
+    infinite: true,
+    draggable: true,
+    autoplay: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className="pt-4">
       <Slider {...settings} aria-hidden="false">
-            {portfolioData.map((d,i) => (
-              <div className="text-center d-flex flex-column align-items-center" style={{position:"relative"}} key={i}>
-                <div  className="portfolio_image_container">
-                  <Image src={d.image} height={450} alt="portfolio" priority/>
-                </div>
-                <div style={{position:"relative",top:"-500px"}}>
-                  <Image  src={MiniLogo} alt="" />
-                  <h3 style={{color:"white",margin:"40px 0"}} >{d.title}</h3>
-                <button style={{background:"none",color:"white",border:"none" ,borderTop:"1px solid white",borderBottom:"1px solid white"}} onClick={()=>router.push(d.link)}>View Now</button>
-                </div>
-              </div>
-            ))}
-            
+        {portfolioData.map((d, i) => (
+          <div className="text-center d-flex flex-column align-items-center" style={{ position: "relative" }} key={i}>
+            <div className="portfolio_image_container">
+              <Image src={d.image} height={450} alt="portfolio" priority />
+            </div>
+            <div style={{ position: "relative", top: "-25vw" }}>
+              <Image src={MiniLogo} alt="" />
+              <h3 style={{ color: "white", margin: "40px 0" }} >{d.title}</h3>
+              <button style={{ background: "none", color: "white", border: "none", borderTop: "1px solid white", borderBottom: "1px solid white" }} onClick={() => router.push(d.link)}>View Now</button>
+            </div>
+          </div>
+        ))}
+
       </Slider>
     </div>
   );

@@ -450,3 +450,46 @@ color: white;
     background-position: 0 0;
   }
 }
+
+.animated-text > span {
+  animation-name: example;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  position: relative;
+  opacity: 0;
+  animation-timing-function: ease-in;
+}
+.animated-text > span:first-child {
+  animation-delay: 20s;
+  animation-duration: 5s;
+}
+.animated-text > span:nth-child(2) {
+  animation-delay: 16s;
+  animation-duration: 5s;
+}
+.animated-text > span:nth-child(3) {
+  animation-delay: 12s;
+  animation-duration: 5s;
+}
+.animated-text > span:nth-child(4) {
+  animation-delay: 8s;
+  animation-duration: 5s;
+}
+.animated-text > span:nth-child(5) {
+  animation-delay: 4s;
+  animation-duration: 5s;
+}
+.animated-text > span:nth-child(6) {
+  animation-delay: 0s;
+  animation-duration: 5s;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+  100% {
+    left: 30px;
+    opacity: 1;
+  }
+}

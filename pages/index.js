@@ -7,6 +7,7 @@ import OurClients from "../components/Home/OurClients";
 import HomeContact from "../components/Home/HomeContact";
 import Head from "next/head";
 import Testimonial from "../components/Home/Testimonial";
+import Blogs from '../components/Home/Blogs.js'
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { useMediaQuery } from 'react-responsive';
 import Packages from "../components/Home/Packages";
@@ -30,15 +31,16 @@ const Home = () => {
           href="https://designalligators.com/"
           key="canonical"
         />
-      
-        
+
+
       </Head>
       <HomeMainSection />
       <SmallInfo />
       <AwardsAndRecognition />
-      {!isMobile &&<HomePortfolio />}
-      <Packages title="Our Packages" home={true}/>
+      {!isMobile && <HomePortfolio />}
+      <Packages title="Our Packages" home={true} />
       {/* <Testimonials /> */}
+      <Blogs />
       <Testimonial />
       <Achievements />
       <OurClients />

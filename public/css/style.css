@@ -1,20 +1,20 @@
-.slick-slide[aria-hidden=true] a[href],
-.slick-slide[aria-hidden=true] area[href], 
-.slick-slide[aria-hidden=true] input:not([disabled]), 
-.slick-slide[aria-hidden=true] select:not([disabled]), 
-.slick-slide[aria-hidden=true] textarea:not([disabled]), 
-.slick-slide[aria-hidden=true] button:not([disabled]), 
-.slick-slide[aria-hidden=true] [tabindex]:not([disabled]), 
-.slick-slide[aria-hidden=true] [contenteditable=true]:not([disabled]){
-    visibility: hidden;
+.slick-slide[aria-hidden="true"] a[href],
+.slick-slide[aria-hidden="true"] area[href],
+.slick-slide[aria-hidden="true"] input:not([disabled]),
+.slick-slide[aria-hidden="true"] select:not([disabled]),
+.slick-slide[aria-hidden="true"] textarea:not([disabled]),
+.slick-slide[aria-hidden="true"] button:not([disabled]),
+.slick-slide[aria-hidden="true"] [tabindex]:not([disabled]),
+.slick-slide[aria-hidden="true"] [contenteditable="true"]:not([disabled]) {
+  visibility: hidden;
 }
 .back-to-top .top {
   position: fixed;
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background: #E50A5C;
-  background: #E50A5C;
+  background: #e50a5c;
+  background: #e50a5c;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -64,8 +64,8 @@
 .whatsapp_widget_wrapper {
   bottom: 70px !important;
 }
-.color_green{
-  color: #E50A5C;
+.color_green {
+  color: #e50a5c;
 }
 
 @media screen and (max-width: 767px) {

@@ -534,7 +534,7 @@
 }
 
 .portfolio_image_container {
-  width: 95%;
+  width: 113%;
 }
 
 .portfolio_image_container > img {
@@ -1428,18 +1428,18 @@
   font-size: 70px;
 }
 .home > h2:nth-child(3) {
-  color: #61127d;
   position: absolute;
-  left: 60px;
+  left: 0px;
   top: 980px;
   transform: rotate(-90deg);
+  color: #7100fe;
 }
 .home > h2:nth-child(4) {
-  color: #f10161;
   position: absolute;
-  right: 60px;
+  right: 0px;
   top: 780px;
   transform: rotate(-90deg);
+  color: #f10161;
 }
 
 .home-info {
@@ -1506,15 +1506,22 @@
   display: flex;
   margin: 60px;
   justify-content: space-between;
+  gap: 25px;
 }
 .achievement > div {
   border: 1px solid gainsboro;
-  padding: 50px;
+  width: 300px;
+  height: 200px;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 10px;
 }
 .achievement > div > div > h2 {
   color: #702ce6;
-  font-size: 50px !important;
+  font-size: 60px !important;
   text-align: center;
   font-weight: bold;
 }
@@ -1524,6 +1531,8 @@
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
+  font-size: 26px;
+  color: #444444;
 }
 .brand-container {
   display: flex !important;
@@ -1557,6 +1566,12 @@
   .header-content {
     width: 1400px !important;
   }
+  .header-content > nav {
+    gap: 20px !important;
+  }
+  .header-content > nav > a {
+    font-size: 14px !important;
+  }
 }
 @media (max-width: 1440px) {
   .header-content {
@@ -1582,4 +1597,43 @@
   .header-content {
     width: 300px !important;
   }
+}
+.blog-slider {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+  transform: scale(0.95);
+  border-radius: 10px;
+  box-shadow: -7.492px 8.544px 30px 0px #14029b44 !important;
+}
+.blog-slider-content {
+  width: 90%;
+}
+.blog-slider-content > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  margin-top: 20px;
+}
+.blog-slider-content > div > h5 {
+  position: relative;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #444444 !important;
+  top: 6px;
+}
+.blog-slider-content > h3 {
+  font-size: 20px;
+  margin-right: 90px;
+}
+.blog-slider-content > p {
+  font-size: 18px;
+  line-height: 1.1;
+  margin-right: 90px;
+}
+.blog-slider-content > div:last-child {
+  color: #dd2476;
+  font-weight: bold;
 }

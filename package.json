@@ -30,6 +30,7 @@
     "react-whatsapp-chat-widget": "^1.1.6",
     "sass": "^1.58.3",
     "sharp": "^0.32.4",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "textillate": "^0.4.1"
   }
 }

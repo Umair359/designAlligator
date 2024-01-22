@@ -13,18 +13,18 @@ const HomePortfolio = () => {
         <Row className="justify-content-center">
           <Col md={10}>
             <div className="text-center home_portfolio_main">
-              <h6 style={{fontSize:"16px",textTransform:"uppercase",color:"#dd2476"}} >Endless Possibilities</h6>
-              <h2 style={{fontWeight:"200",textTransform:"uppercase",fontSize:"50px"}}>Our Creative Portfolio</h2>
-              <p>
+              <h6 style={{ fontSize: "16px", textTransform: "uppercase", color: "#dd2476" }} >Endless Possibilities</h6>
+              <h2 style={{ fontWeight: "200", textTransform: "uppercase", fontSize: "60px" }}>Our Creative Portfolio</h2>
+              <p style={{ fontWeight: "bold", fontSize: "20px", color: "#444444" }}>
                 With over five years of experience, we've been expertly
                 converting dull, unappealing websites into sleek, beautiful,
                 professional sites. We take pride in{" "}
-                <Link href="/portfolios">our portfolio</Link>, which showcases
+                <Link style={{ color: "inherit" }} href="/portfolios">our portfolio</Link>, which showcases
                 our expertise and capabilities.
               </p>
-              <h6 style={{backgroundColor:"#eeeeee",width:"fit-content",margin:"20px auto",padding:"10px"}}>
+              <h6 style={{ backgroundColor: "#eeeeee", width: "fit-content", margin: "20px auto", padding: "10px" }}>
                 Trust us to take your website from <b>"meh"</b> to <b>"wowza"</b> with our{" "}
-                <Link style={{color:"black",fontWeight:"normal"}} href="/services/website-development">
+                <Link style={{ color: "black", fontWeight: "normal" }} href="/services/website-development">
                   Website Development Services
                 </Link>
                 .
@@ -33,9 +33,9 @@ const HomePortfolio = () => {
           </Col>
         </Row>
       </Container>
-        <PortfolioSlider />
-        
-    
+      <PortfolioSlider />
+
+
     </div>
   );
 };

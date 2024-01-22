@@ -95,6 +95,38 @@ export const sliderSettings2 = {
     },
   ],
 }
+export const sliderSettings4 = {
+  dots: false,
+  infinite: true,
+  draggable: true,
+  autoplay: false,
+  centerMode: true,
+
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
+  responsive: [
+    {
+      breakpoint: 1310,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      },
+    },
+    {
+      breakpoint: 780,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+
+      },
+    },
+  ],
+}
 export const sliderSettings3 = {
   dots: true,
   infinite: true,
