@@ -1,0 +1,116 @@
+ .modal{
+    top: 30px !important;
+}
+.site_modal .modal-content {
+    /* height: 500px; */
+    background: #FFF;
+    margin: auto;
+    border-radius: 18px;
+    position: relative;
+}
+
+.site_modal .modal-content::before{
+    content: "";
+    width: 92%;
+    height: 40px;
+    background: #ffffff57;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+}
+.site_modal .modal-content::after{
+    content: "";
+    width: 86%;
+    height: 35px;
+    background: #ffffff2b;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+}
+.modal-backdrop {
+    background-color: #00000094  !important;
+    --bs-backdrop-bg:transparent !important;
+    /* opacity:0.07 !important */
+}
+
+
+
+.site_modal .modal-body {
+    /* padding: 30px 0 !important; */
+    /* border-radius: 20px !important; */
+    border-radius: 12px !important;
+    position: relative;
+    padding: 0px!important;
+    /* background-color: #111111; */
+}
+
+
+
+.site_modal .review_header svg {
+    position: absolute;
+    right: -12px;
+    top: -9px;
+    font-size: 30px;
+    color: #E50A5C;
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
+
+}
+
+.site_modal .modal-body img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 12px; */
+
+}
+.site_modal .form_bg{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    width: 100%;
+}
+.modal_form h1{
+    font-size: 30px;
+    color: #E50A5C;
+}
+.modal_form h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.modal_form .form-label{
+    margin-bottom: 0px !important;
+}
+.modal_form .form-control{
+    border: none;
+    border-bottom: 1px solid rgb(197, 195, 195);
+    border-radius: 0px;
+    padding-left: 0px !important;
+}
+.modal_form button{
+    display: flex;
+    margin-left: auto;
+    background-color: #E50A5C;
+    color: white;
+    border: 1px solid #E50A5C;
+    padding: 6px 25px;
+    margin-bottom: 10px;
+}
+.modal_form button:hover{
+    color: #E50A5C;
+    background-color: white;
+    border: 1px solid #E50A5C;
+
+}
+@media screen and (max-width:1024px) {
+    .site_modal .modal.site_modal{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

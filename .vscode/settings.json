@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5d9a74ff-5c81-4fca-b3c5-59562721a04b/resourceGroups/designalligators/providers/Microsoft.Web/sites/designalligators",
+    "appService.deploySubpath": "."
+}
