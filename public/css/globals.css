@@ -262,6 +262,13 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+  transition: all 0.5s ease;
+}
+button:hover {
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
 }
 
 .text-green {

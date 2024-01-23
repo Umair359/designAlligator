@@ -535,11 +535,15 @@
 
 .portfolio_image_container {
   width: 113%;
+  transition: all 0.5s ease;
 }
 
 .portfolio_image_container > img {
   width: 100%;
   height: 100%;
+}
+.portfolio_image_container:hover {
+  filter: brightness(2.5);
 }
 
 .portfolio_slider_btn {
@@ -582,6 +586,10 @@
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   background-color: transparent;
+  transition: all 0.5s ease;
+}
+.portfolio_content_container button:hover {
+  font-size: 16px;
 }
 @media (max-width: 1600px) {
   .portfolio_content_container {
@@ -618,6 +626,7 @@
   background-image: url("/images/NewUI/testimonialBg.png");
   margin-top: 100px;
   padding: 100px 20px;
+  background-repeat: no-repeat;
 }
 
 .home_testimonials_main h5 {
@@ -693,6 +702,18 @@
 }
 .testimonial-container:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 1440px) {
+  .testimonial-container {
+    height: 350px;
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
 }
 .testimonial-container > * {
   color: black !important;
@@ -974,6 +995,10 @@
   color: #e50a5c;
   border: 1px solid #e50a5c;
   border-radius: 6px;
+  transition: all 0.5s ease;
+}
+.packages_tabs button:hover {
+  box-shadow: -7.492px 8.544px 30px 0px #14029b44 !important;
 }
 .packages_tabs button.active {
   color: white;
@@ -995,6 +1020,12 @@
   margin: 15px;
   position: relative;
   margin-bottom: 40px;
+  margin-top: 40px;
+  transition: all 0.5s ease;
+}
+.Packages .Card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .Packages .Card > div:first-child {
   background: linear-gradient(to left, #cc2b5e, #753a88);
@@ -1097,6 +1128,10 @@
   color: white;
   font-size: 18px;
   box-shadow: #14029b62 0px 7px 29px 0px;
+  transition: all 0.5s ease;
+}
+.Packages .Card .Button:hover {
+  opacity: 0.8;
 }
 
 .Packages .Card .Links {
@@ -1473,7 +1508,7 @@
   flex-direction: column;
   width: fit-content;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 210px;
   width: 100vw;
   overflow-y: hidden;
 }
@@ -1522,6 +1557,8 @@
   .home > h2 {
     font-size: 80px;
   }
+}
+@media (max-width: 1440px) {
 }
 @media (max-width: 1250px) {
   .home > h1 {
@@ -1730,7 +1767,7 @@
   color: #444444;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1400px) {
   .achievement > div {
     height: 200px;
     width: 200px;
@@ -1848,6 +1885,11 @@
   margin: 30px 0;
   border-radius: 10px;
   box-shadow: -7.492px 8.544px 30px 0px #14029b44 !important;
+  transition: all 0.5s ease;
+}
+.blog-slider:hover {
+  transform: scale(1);
+  cursor: pointer;
 }
 .blog-slider-content {
   width: 90%;

@@ -11,7 +11,7 @@ import { CiClock2 } from "react-icons/ci";
 
 const Blogs = () => {
     return (
-        <div style={{ marginTop: "-200px" }} >
+        <div style={{ marginTop: "-100px" }} >
             <h2 style={{ textAlign: "center", fontSize: "60px", textTransform: "uppercase", fontWeight: "300" }} >Blog</h2>
             <div className='blog-slider-container'>
 

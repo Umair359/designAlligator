@@ -86,7 +86,7 @@ const HomeServices = () => {
     );
   }
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     draggable: true,
     autoplay: true,
