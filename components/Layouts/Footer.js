@@ -187,7 +187,7 @@ const Footer = () => {
         </Row>
       </Container>
       <hr />
-      <div style={{ fontWeight: "bold", fontSize: "18px" }} className="text-center copyrights">
+      <div style={{ fontSize: "18px" }} className="text-center copyrights">
         © 2023 Design Alligators. All Rights Reserved.{" "}
       </div>
     </div>

@@ -150,7 +150,7 @@ const HomeServices = () => {
         <Row className="g-3 home_services_slider">
           {/* <Col md={4}> */}
           <Slider {...settings} aria-hidden="false">
-            {services.map((s,i) => (
+            {services.map((s, i) => (
               <div key={i}>
                 <div className="d-flex justify-content-center">
                   <Link href={s.link}>

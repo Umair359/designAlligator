@@ -17,6 +17,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import Sidebar from "../../Sidebar/Sidebar";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   const router = useRouter();
@@ -87,7 +88,7 @@ const Header = () => {
       <Sidebar navbarRef={navbarRef} NavHandler={NavHandler} />
 
       <div className="header_main">
-        <Image style={{ minWidth: "1600px" }} className="home-bg" src={HomeBanner} alt="HomeBanner" />
+        <Image className="home-bg" src={HomeBanner} alt="HomeBanner" />
         <div className="header-content">
           <div><Image src={Logo} alt="logo.png" /></div>
           <nav>
@@ -97,8 +98,19 @@ const Header = () => {
             <Link href={'/'}>Our Portfolios</Link>
             <Link href={'/'}>Blog</Link>
             <Link href={'/'}>Contact us</Link>
-
           </nav>
+          <div onClick={() => setIsMenuOpen(!isMenuOpen)} className="monbile-nav" >
+            <GiHamburgerMenu fill="white" />
+            <nav className={isMenuOpen ? "nav-open" : ""} >
+              <Link className="active" href={'/'}>Home</Link>
+              <Link href={'/'}>About Us</Link>
+              <Link href={'/'}>Services</Link>
+              <Link href={'/'}>Our Portfolios</Link>
+              <Link href={'/'}>Blog</Link>
+              <Link href={'/'}>Contact us</Link>
+            </nav>
+          </div>
+
           <button>
             Get a Quote
           </button>

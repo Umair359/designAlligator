@@ -4,56 +4,19 @@ import Blog1 from '../../public/images/NewUI/blog1.png';
 import Blog2 from '../../public/images/NewUI/blog2.png';
 import Blog3 from '../../public/images/NewUI/blog3.png';
 import Image from 'next/image';
-import { sliderSettings3, sliderSettings4 } from '../../utils/sliderConfiguration';
+import { sliderSettings4 } from '../../utils/sliderConfiguration';
 import { FaCaretRight } from "react-icons/fa6";
 import { CiClock2 } from "react-icons/ci";
 
 
 const Blogs = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        draggable: true,
-        autoplay: false,
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-
-                },
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    initialSlide: 2,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
-    };
     return (
-        <div style={{ marginTop: "100px" }} >
-            <h2 style={{ textAlign: "center", fontSize: "60px" }} >Blog</h2>
-            <div style={{ width: "90%", margin: "auto" }}>
+        <div style={{ marginTop: "-200px" }} >
+            <h2 style={{ textAlign: "center", fontSize: "60px", textTransform: "uppercase", fontWeight: "300" }} >Blog</h2>
+            <div className='blog-slider-container'>
 
                 <Slider style={{ marginTop: "40px" }}  {...sliderSettings4} >
-                    <div className='blog-slider' style={{ width: "150px !important" }} >
+                    <div className='blog-slider' >
                         <Image src={Blog1} alt="blog1.png" />
                         <div className='blog-slider-content' >
                             <div>
@@ -117,10 +80,6 @@ const Blogs = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </Slider>
             </div>
         </div>

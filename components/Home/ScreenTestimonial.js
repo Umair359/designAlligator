@@ -14,7 +14,7 @@ function ScreenTestimonial({ d }) {
         }}
       >
         <Container fluid>
-          <div style={{ marginTop: "20px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <div style={{ marginTop: "20px", display: "flex", flexDirection: "column", alignItems: "center", paddingBottom: "40px" }}>
             <div style={{ width: "80px", height: "80px", borderRadius: "50%", overflow: "hidden" }}>
 
               <Image
@@ -25,11 +25,11 @@ function ScreenTestimonial({ d }) {
               />
             </div>
             <Image style={{ marginTop: "10px" }} src={Stars} alt="stars.png" />
-            <p style={{ textAlign: "center", fontWeight: "bold", width: "80%", marginTop: "20px" }} className="testimonial-comment">{d.comment}</p>
-            <h4 style={{ fontSize: "16px", color: "#444444 !important" }} className="pt-2 testimonial-designation">
+            <p style={{ textAlign: "center", width: "90%", marginTop: "20px" }} className="testimonial-comment">{d.comment}</p>
+            <h4 style={{ fontSize: "14px", color: "#444444 !important" }} className="pt-2 testimonial-designation">
               {d.designation}
             </h4>
-            <h5 style={{ fontSize: "16px", color: "#999999" }} >1 Day Ago</h5>
+            <h5 style={{ fontSize: "13px", color: "#999999", fontWeight: "400" }} >1 Day Ago</h5>
           </div>
 
 

@@ -49,12 +49,6 @@ const portfolioData = [
 
   },
   {
-    image: Portfolio7,
-    title: "illustrations",
-    link: "/portfolios"
-
-  },
-  {
     image: Portfolio8,
     title: "Product Design",
     link: "/portfolios"
@@ -108,10 +102,12 @@ const PortfolioSlider = () => {
             <div className="portfolio_image_container">
               <Image src={d.image} height={450} alt="portfolio" priority />
             </div>
-            <div style={{ position: "relative", top: "-25vw" }}>
+            <div className="portfolio_content_container">
               <Image src={MiniLogo} alt="" />
-              <h3 style={{ color: "white", margin: "40px 0" }} >{d.title}</h3>
-              <button style={{ background: "none", color: "white", border: "none", borderTop: "1px solid white", borderBottom: "1px solid white" }} onClick={() => router.push(d.link)}>View Now</button>
+              <h3>|</h3>
+              <h3 >{d.title}</h3>
+
+              <button onClick={() => router.push(d.link)}>View Now</button>
             </div>
           </div>
         ))}

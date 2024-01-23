@@ -110,7 +110,7 @@ export const sliderSettings4 = {
   prevArrow: <SamplePrevArrow />,
   responsive: [
     {
-      breakpoint: 1310,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1

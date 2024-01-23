@@ -22,6 +22,9 @@ const Home = () => {
           Professional Digital Design Agency in USA | Design Alligators
         </title>
         <link rel="icon" href="/favicon2.png" />
+        <link href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" />
+
+
         <meta
           name="description"
           content="Design Alligators is an award-winning Digital Design Agency in the USA. We offer Design, Development, Digital Marketing & Print Solutions."
@@ -38,9 +41,9 @@ const Home = () => {
       <SmallInfo />
       <AwardsAndRecognition />
       {!isMobile && <HomePortfolio />}
+      <Blogs />
       <Packages title="Our Packages" home={true} />
       {/* <Testimonials /> */}
-      <Blogs />
       <Testimonial />
       <Achievements />
       <OurClients />
