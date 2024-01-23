@@ -43,7 +43,7 @@ const SmallInfo = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesTo3Show: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },

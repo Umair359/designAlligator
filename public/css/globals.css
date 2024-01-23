@@ -492,3 +492,14 @@ color: white;
   width: 90%;
   margin: auto;
 }
+
+@media (max-width: 768px) {
+  .PackageSection > h2,
+  .home_testimonials_main > div > div > h4,
+  .our-clients-main h3,
+  .home_contact_form_container h3 {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 576px) {
+}

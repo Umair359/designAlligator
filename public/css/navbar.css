@@ -511,8 +511,10 @@
 .home-bg {
   z-index: -1;
   position: absolute;
-  width: 100%;
+  min-width: 100% !important;
   height: 950px;
+  object-fit: cover;
+  object-position: 46%;
 }
 .monbile-nav {
   display: none;

@@ -61,13 +61,27 @@ const Testimonial = ({ data }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ]
   };
   return (
     <div className="home_testimonials_main testimonial_slider_main">
       <div style={{ width: "100vw", maxWidth: "100%" }}>
         <div className="text-center">
           <h5 style={{ textTransform: "uppercase", fontSize: "18px" }} className="text-green">Testimonials</h5>
-          <h4 style={{ fontSize: "60px", textTransform: "uppercase", fontWeight: "300" }} >What Our Clients Are Saying</h4>
+          <h4 style={{ textTransform: "uppercase", fontWeight: "300" }} >What Our Clients Are Saying</h4>
         </div>
         <div style={{ width: "100%", overflowX: "hidden" }}>
           <Slider {...settings}>
