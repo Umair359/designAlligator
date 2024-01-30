@@ -9,15 +9,15 @@ import Award4 from "../../public/images/award-4.webp";
 import Award5 from "../../public/images/award-5.webp";
 import Award6 from "../../public/images/award-6.webp";
 
-import Brand11 from'../../public/images/NewUI/brand11.png';
-import Brand12 from'../../public/images/NewUI/brand12.png';
-import Brand13 from'../../public/images/NewUI/brand13.png';
-import Brand14 from'../../public/images/NewUI/brand14.png';
+import Brand11 from '../../public/images/NewUI/brand11.png';
+import Brand12 from '../../public/images/NewUI/brand12.png';
+import Brand13 from '../../public/images/NewUI/brand13.png';
+import Brand14 from '../../public/images/NewUI/brand14.png';
 
-import Brand21 from'../../public/images/NewUI/brand21.png';
-import Brand22 from'../../public/images/NewUI/brand22.png';
-import Brand23 from'../../public/images/NewUI/brand23.png';
-import Brand24 from'../../public/images/NewUI/brand24.png';
+import Brand21 from '../../public/images/NewUI/brand21.png';
+import Brand22 from '../../public/images/NewUI/brand22.png';
+import Brand23 from '../../public/images/NewUI/brand23.png';
+import Brand24 from '../../public/images/NewUI/brand24.png';
 
 
 
@@ -63,12 +63,13 @@ const AwardsAndRecognition = () => {
   const settings = {
     dots: false,
     infinite: true,
-    draggable:true,
-    autoplay:true,
-    speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-    initialSlide: 0,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -77,7 +78,7 @@ const AwardsAndRecognition = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: false,
-          
+
         },
       },
       {
@@ -98,46 +99,64 @@ const AwardsAndRecognition = () => {
     ],
   };
   return (
-    <div className="mt-5">
-      <Container fluid className="w-90">
-        <Row className="py-4">
-          <Slider {...settings} >
-           <div className="brand-container">
-            <Image src={Brand11} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand12} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand13} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand14} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand14} alt="brand11.png"/>
-           </div>
-          </Slider>
-          <Slider {...settings} >
-           <div className="brand-container">
-            <Image src={Brand21} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand22} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand23} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand24} alt="brand11.png"/>
-           </div>
-           <div className="brand-container">
-            <Image src={Brand24} alt="brand11.png"/>
-           </div>
-          </Slider>
-        </Row>
-      </Container>
-    </div>
+    <>
+
+      <Row className="py-4">
+        <Slider {...settings} >
+          <div className="brand-container">
+            <Image src={Brand11} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand12} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand13} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand14} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand14} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand11} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand12} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand13} alt="brand11.png" />
+          </div>
+        </Slider>
+        <Slider {...settings} >
+          <div className="brand-container">
+            <Image src={Brand21} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand22} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand23} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand24} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand24} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand21} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand22} alt="brand11.png" />
+          </div>
+          <div className="brand-container">
+            <Image src={Brand23} alt="brand11.png" />
+          </div>
+        </Slider>
+      </Row>
+
+    </>
   );
 };
 
