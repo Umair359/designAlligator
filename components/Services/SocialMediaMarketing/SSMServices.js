@@ -6,7 +6,7 @@ import { SSMServicesList } from "../servicesData";
 
 const SSMServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("SSM/service-1");
+  const [img, setImg] = useState("SSM/service-1.webp");
 
   return (
     <>

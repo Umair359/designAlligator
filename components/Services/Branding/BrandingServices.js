@@ -6,7 +6,7 @@ import ServicesCard from "../../ServicesInnerPagesLayout/ServicesCard";
 
 const BrandingServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("branding/service-1");
+  const [img, setImg] = useState("branding/service-1.webp");
 
   return (
     <>

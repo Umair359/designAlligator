@@ -7,7 +7,7 @@ import { emailServicesList } from "../servicesData";
 
 const EmailServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("EmailMarketing/service-1");
+  const [img, setImg] = useState("EmailMarketing/service-1.webp");
 
   return (
     <>

@@ -7,7 +7,7 @@ import ServicesCard from "../../ServicesInnerPagesLayout/ServicesCard";
 
 const WhyChooseForEcommerce = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("EcommerceSolution/service-1");
+  const [img, setImg] = useState("EcommerceSolution/service-1.webp");
 
   return (
     <>

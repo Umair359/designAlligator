@@ -629,6 +629,7 @@
   background-image: url("/images/NewUI/testimonialBg.png");
   margin-top: 100px;
   padding: 100px 20px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -1053,6 +1054,7 @@
 .Packages .Card:hover {
   transform: scale(1.05);
   cursor: pointer;
+  background: linear-gradient(to left, #cc2b5e, #753a88);
 }
 .Packages .Card > div:first-child {
   background: linear-gradient(to left, #cc2b5e, #753a88);
@@ -1061,6 +1063,17 @@
   display: flex;
   justify-content: flex-start;
   padding-left: 30px;
+}
+.Card:hover h4, .Card:hover p > span{
+  color: #cc2b5e !important;
+}
+.Card:hover .Price , .Card:hover .Button{
+  background: white !important;
+  color: #cc2b5e !important;
+}
+.Card:hover h3, .Card:hover h5, .Card:hover ul>li, .Card:hover .Links > li > a, .Card:hover .Links > li > a > svg{
+  color: white !important;
+  fill: white !important;
 }
 .Packages .Card .Icon {
   height: 80px;
