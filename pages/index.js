@@ -14,7 +14,6 @@ import Packages from "../components/Home/Packages";
 
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
-  console.log(isMobile)
   return (
     <div className="home_page">
       <Head>

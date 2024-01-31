@@ -35,6 +35,44 @@ const portfolioData = [
     image: Client6,
   },
   {
+    image: Client1,
+  },
+  {
+    image: Client2,
+  },
+  {
+    image: Client3,
+  },
+  {
+    image: Client4,
+  },
+  {
+    image: Client5,
+  },
+  {
+    image: Client6,
+  }
+];
+const portfolioData2 = [
+  {
+    image: Client7,
+  },
+  {
+    image: Client8,
+  },
+  {
+    image: Client9,
+  },
+  {
+    image: Client10,
+  },
+  {
+    image: Client11,
+  },
+  {
+    image: Client12,
+  },
+  {
     image: Client7,
   },
   {
@@ -106,16 +144,138 @@ const OurClients = () => {
             </p>
           </Col>
         </Row>
-        <Row className="py-4 clients_slider clients-image-container gx-5 gy-5">
-          {portfolioData.map((d, i) => (
-            <Col key={i} md={2} sm={4} xs={6}>
-              <Image src={d.image} height={450} alt="our-client" priority/>
-            </Col>
-          ))}
-        </Row>
+        <div class="slider">
+          <div class="slide-track">
+
+            {portfolioData.map((d, i) => (
+              <div key={i} class="slide">
+                <Image src={d.image} alt={`${d.image}`} />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="slider left">
+          <div class="slide-track">
+
+            {portfolioData2.map((d, i) => (
+              <div key={i} class="slide">
+                <Image src={d.image} alt={`${d.image}`} />
+              </div>
+            ))}
+          </div>
+        </div>
       </Container>
     </div>
   );
 };
 
 export default OurClients;
+/*
+<>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <Image src={Brand11} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand12} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand13} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand14} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand11} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand12} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand13} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand14} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand11} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand12} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand13} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand14} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand11} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand12} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand13} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand14} alt="brand11.png" />
+      </div>
+    </div>
+  </div>
+  <div class="slider left">
+    <div class="slide-track">
+      <div class="slide">
+        <Image src={Brand21} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand22} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand23} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand24} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand21} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand22} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand23} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand24} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand21} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand22} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand23} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand24} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand21} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand22} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand23} alt="brand11.png" />
+      </div>
+      <div class="slide">
+        <Image src={Brand24} alt="brand11.png" />
+      </div>
+    </div>
+  </div>
+
+
+</>*/

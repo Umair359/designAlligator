@@ -12,20 +12,20 @@ import ServiceCard from "./ServiceCard";
 // import {} from "../../public/images"
 import { packages } from "../../lib/packages";
 
-const handleModal = (title,price,setShow,setModalData)=>{
-setShow(true)
-setModalData({
-    title:title,
-    price:price
-})
+const handleModal = (title, price, setShow, setModalData) => {
+  setShow(true)
+  setModalData({
+    title: title,
+    price: price
+  })
 }
 
-function Packages({ home, title,page }) {
-  const [serviceType, setServiceType] = useState(page ? page :"Logo");
+function Packages({ home, title, page }) {
+  const [serviceType, setServiceType] = useState(page ? page : "Logo");
   const [show, setShow] = useState(false);
-  const [modalData,setModalData] = useState({
-    title:"",
-    price:""
+  const [modalData, setModalData] = useState({
+    title: "",
+    price: ""
   })
 
   return (

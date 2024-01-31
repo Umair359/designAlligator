@@ -96,23 +96,26 @@ const PortfolioSlider = () => {
   };
   return (
     <div className="pt-4">
-      <Slider {...settings} aria-hidden="false">
-        {portfolioData.map((d, i) => (
-          <div className="text-center d-flex flex-column align-items-center" style={{ position: "relative" }} key={i}>
-            <div className="portfolio_image_container">
-              <Image src={d.image} height={450} alt="portfolio" priority />
-            </div>
-            <div className="portfolio_content_container">
-              <Image src={MiniLogo} alt="" />
-              <h3>|</h3>
-              <h3 >{d.title}</h3>
 
-              <button onClick={() => router.push(d.link)}>View Now</button>
-            </div>
-          </div>
-        ))}
+      <div class="slider slide portfolio-slide ">
+        <div class="slide-track">
+          {portfolioData.map((d, i) => (
+            <div className="text-center d-flex flex-column align-items-center slide porfolio-slide" style={{ position: "relative" }} key={i}>
+              <div className="portfolio_image_container">
+                <Image src={d.image} alt="portfolio" priority />
+              </div>
+              <div className="portfolio_content_container">
+                <Image src={MiniLogo} alt="" />
+                <h3>|</h3>
+                <h3 >{d.title}</h3>
 
-      </Slider>
+                <button onClick={() => router.push(d.link)}>View Now</button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
     </div>
   );
 };

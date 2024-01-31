@@ -55,54 +55,93 @@ const SmallInfo = () => {
         <h3>Welcome to Design Alligators that brings your wildest digital dreams to life! As a leading Digital Design Agency based in the United States, we're passionate about crafting stunning, engaging websites that showcase our clients' unique personalities.</h3>
         <p>Our Website Development Services are second to none, delivering beautiful, intuitive websites that perfectly capture your brand's essence. From conception to launch, our team of talented designers and developers work tirelessly to create a website that reflects your vision and exceeds your expectations.</p>
       </div>
-      <div>
-        <Slider {...settings} >
-          <div className="service-slider-item">
+      <div class="slider home-info-slider ">
+        <div class="slide-track">
+          <div className="service-slider-item slide home-info-slider" >
             <Image src={HomeInfo1} alt="homeInfo1.png" />
             <div>
               <h3>Web Development Services</h3>
               <p>Why settle for average when you can have the best? With Design Alligators, get the attention & leads you deserve! Design Alligators will help your organization with excellent Website Development Services.</p>
             </div>
           </div>
-          <div className="service-slider-item pink" >
+          <div className="service-slider-item pink slide" >
             <Image src={HomeInfo3} alt="homeInfo3.png" />
             <div>
               <h3>Brand And Visual Design</h3>
               <p>Are you looking for a great deal on Brand & Visual Design? We are here to help. We offer a range of Visual Design Services to suit your needs & your budget, & we deliver quality Branding Services.</p>
             </div>
           </div>
-          <div className="service-slider-item" >
+          <div className="service-slider-item slide " >
             <Image src={HomeInfo2} alt="homeInfo2.png" />
             <div>
               <h3>Ecommerce Marketing</h3>
               <p>Get more traffic and leads on your Ecommerce Store through our eCommerce Marketing Services. Our Professional Ecommerce Marketers know how to deliver results on your eCommerce Store.</p>
             </div>
           </div>
-          <div className="service-slider-item pink" >
+          <div className="service-slider-item pink slide" >
             <Image src={HomeInfo1} alt="homeInfo1.png" />
             <div>
               <h3>Web Development Services</h3>
               <p>Why settle for average when you can have the best? With Design Alligators, get the attention & leads you deserve! Design Alligators will help your organization with excellent Website Development Services.</p>
             </div>
           </div>
-          <div className="service-slider-item " >
+          <div className="service-slider-item slide" >
             <Image src={HomeInfo3} alt="homeInfo3.png" />
             <div>
               <h3>Brand And Visual Design</h3>
               <p>Are you looking for a great deal on Brand & Visual Design? We are here to help. We offer a range of Visual Design Services to suit your needs & your budget, & we deliver quality Branding Services.</p>
             </div>
           </div>
-          <div className="service-slider-item pink"  >
+          <div className="service-slider-item pink slide"  >
             <Image src={HomeInfo2} alt="homeInfo2.png" />
             <div>
               <h3>Ecommerce Marketing</h3>
               <p>Get more traffic and leads on your Ecommerce Store through our eCommerce Marketing Services. Our Professional Ecommerce Marketers know how to deliver results on your eCommerce Store.</p>
             </div>
           </div>
-        </Slider>
-
-
-
+          <div className="service-slider-item slide" >
+            <Image src={HomeInfo1} alt="homeInfo1.png" />
+            <div>
+              <h3>Web Development Services</h3>
+              <p>Why settle for average when you can have the best? With Design Alligators, get the attention & leads you deserve! Design Alligators will help your organization with excellent Website Development Services.</p>
+            </div>
+          </div>
+          <div className="service-slider-item pink slide" >
+            <Image src={HomeInfo3} alt="homeInfo3.png" />
+            <div>
+              <h3>Brand And Visual Design</h3>
+              <p>Are you looking for a great deal on Brand & Visual Design? We are here to help. We offer a range of Visual Design Services to suit your needs & your budget, & we deliver quality Branding Services.</p>
+            </div>
+          </div>
+          <div className="service-slider-item slide " >
+            <Image src={HomeInfo2} alt="homeInfo2.png" />
+            <div>
+              <h3>Ecommerce Marketing</h3>
+              <p>Get more traffic and leads on your Ecommerce Store through our eCommerce Marketing Services. Our Professional Ecommerce Marketers know how to deliver results on your eCommerce Store.</p>
+            </div>
+          </div>
+          <div className="service-slider-item pink slide" >
+            <Image src={HomeInfo1} alt="homeInfo1.png" />
+            <div>
+              <h3>Web Development Services</h3>
+              <p>Why settle for average when you can have the best? With Design Alligators, get the attention & leads you deserve! Design Alligators will help your organization with excellent Website Development Services.</p>
+            </div>
+          </div>
+          <div className="service-slider-item slide" >
+            <Image src={HomeInfo3} alt="homeInfo3.png" />
+            <div>
+              <h3>Brand And Visual Design</h3>
+              <p>Are you looking for a great deal on Brand & Visual Design? We are here to help. We offer a range of Visual Design Services to suit your needs & your budget, & we deliver quality Branding Services.</p>
+            </div>
+          </div>
+          <div className="service-slider-item pink slide"  >
+            <Image src={HomeInfo2} alt="homeInfo2.png" />
+            <div>
+              <h3>Ecommerce Marketing</h3>
+              <p>Get more traffic and leads on your Ecommerce Store through our eCommerce Marketing Services. Our Professional Ecommerce Marketers know how to deliver results on your eCommerce Store.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         <button>I Need A Custom Quote</button>

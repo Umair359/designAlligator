@@ -18,34 +18,29 @@ const GetAQuoteForm = () => {
   });
   const captchaRef = useRef(null);
   const [recaptcha, setRecaptcha] = useState("");
-  const handleEmail = async (e, data) => {
-    e.preventDefault();
-    await axios.post("/api/send-quote", data);
-  };
+
   const handleQuote = (e) => {
     setQuoteDetails((prev) => {
       return { ...prev, [e.target.name]: e.target.value };
     });
   };
-  console.log(quoteDetails);
-  console.log(phoneNumber);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (recaptcha) {
-      handleEmail(e, {...quoteDetails, phone:phoneNumber});
-      successNotify("details submitted successfully!");
-
-      captchaRef.current.reset();
-      setQuoteDetails({
-        service: "Branding & Design",
-        name: "",
-        email: "",
-        organization: "",
-        message: "",
-        service_required: "",
-        hear_by: "",
-      });
-      setPhoneNumber("");
+    if (!recaptcha) {
+      const res = await axios.post("/api/send-quote", { ...quoteDetails, phone: phoneNumber });
+      console.log(res?.data?.message, "res");
+      successNotify(res?.data?.message);
+      // captchaRef.current.reset();
+      // setQuoteDetails({
+      //   service: "Branding & Design",
+      //   name: "",
+      //   email: "",
+      //   organization: "",
+      //   message: "",
+      //   service_required: "",
+      //   hear_by: "",
+      // });
+      // setPhoneNumber("");
     } else {
       alert("Please confirm you're not a robot!");
     }
@@ -146,65 +141,65 @@ const GetAQuoteForm = () => {
                       onChange={handleQuote}
                       value={quoteDetails.service_required}
                     >
-                     {quoteDetails?.service === "Branding & Design" ?
-                     <>
-                     <option value="">Select</option>
-                     <option value="UI/UX Design">UI/UX Design</option>
-                      <option value="Mobile App Design">
-                        Mobile App Design
-                      </option>
-                      <option value="Brand And Visual Design">
-                        Brand And Visual Design
-                      </option>
-                      <option value="Logo Design">Logo Design</option>
-                      <option value="Video Animation">Video Animation</option>
-                    </>
-                  : quoteDetails?.service === "Website Related Services" ?
-                  <>
-                     <option value="">Select</option>
+                      {quoteDetails?.service === "Branding & Design" ?
+                        <>
+                          <option value="">Select</option>
+                          <option value="UI/UX Design">UI/UX Design</option>
+                          <option value="Mobile App Design">
+                            Mobile App Design
+                          </option>
+                          <option value="Brand And Visual Design">
+                            Brand And Visual Design
+                          </option>
+                          <option value="Logo Design">Logo Design</option>
+                          <option value="Video Animation">Video Animation</option>
+                        </>
+                        : quoteDetails?.service === "Website Related Services" ?
+                          <>
+                            <option value="">Select</option>
 
-                     <option value="Website Development">Website Development</option>
-                      <option value="Ecommerce Solutions">
-                      Ecommerce Solutions
-                      </option>
-                      <option value="Web App Development">
-                      Web App Development
-                      </option>
-                      <option value="Mobile App Development">Mobile App Development</option>
-                      <option value="Website Redesign">Website Redesign</option>
-                    </>
-                    : quoteDetails?.service === "Marketing & Strategy" ?
-                    <>
-                     <option value="">Select</option>
+                            <option value="Website Development">Website Development</option>
+                            <option value="Ecommerce Solutions">
+                              Ecommerce Solutions
+                            </option>
+                            <option value="Web App Development">
+                              Web App Development
+                            </option>
+                            <option value="Mobile App Development">Mobile App Development</option>
+                            <option value="Website Redesign">Website Redesign</option>
+                          </>
+                          : quoteDetails?.service === "Marketing & Strategy" ?
+                            <>
+                              <option value="">Select</option>
 
-                       <option value="Search Engine Optimization(SEO)">Search Engine Optimization(SEO)</option>
-                        <option value="Social Media Marketing(SMM)">
-                        Social Media Marketing(SMM)
-                        </option>
-                        <option value="Email Marketing">
-                          Email Marketing
-                        </option>
-                        <option value="Paid Campaigns(PPC)">Paid Campaigns(PPC)</option>
-                        <option value="Ecommerce Marketing">Ecommerce Marketing</option>
-                      </>
-                      :
-                      <>
-                     <option value="">Select</option>
+                              <option value="Search Engine Optimization(SEO)">Search Engine Optimization(SEO)</option>
+                              <option value="Social Media Marketing(SMM)">
+                                Social Media Marketing(SMM)
+                              </option>
+                              <option value="Email Marketing">
+                                Email Marketing
+                              </option>
+                              <option value="Paid Campaigns(PPC)">Paid Campaigns(PPC)</option>
+                              <option value="Ecommerce Marketing">Ecommerce Marketing</option>
+                            </>
+                            :
+                            <>
+                              <option value="">Select</option>
 
-                       <option value="T-Shirt Design">T-Shirt Design</option>
-                        <option value="Invitation Card Design">
-                        Invitation Card Design
-                        </option>
-                        <option value="Flyer Design">
-                          Flyer Design
-                        </option>
-                        <option value="Brochure Design">Brochure Design</option>
-                        <option value="Catalogue Design">Catalogue Design</option>
-                        <option value="Menu Design">Menu Design</option>
-                        <option value="Poster Design">Poster Design</option>
-                      </>
+                              <option value="T-Shirt Design">T-Shirt Design</option>
+                              <option value="Invitation Card Design">
+                                Invitation Card Design
+                              </option>
+                              <option value="Flyer Design">
+                                Flyer Design
+                              </option>
+                              <option value="Brochure Design">Brochure Design</option>
+                              <option value="Catalogue Design">Catalogue Design</option>
+                              <option value="Menu Design">Menu Design</option>
+                              <option value="Poster Design">Poster Design</option>
+                            </>
 
-                  }
+                      }
                     </select>
                   </Col>
                   <Col md={12} className="mt-3">
@@ -215,7 +210,7 @@ const GetAQuoteForm = () => {
                       value={quoteDetails.hear_by}
                       onChange={handleQuote}
                     >
-                     <option value="">Select</option>
+                      <option value="">Select</option>
 
                       <option value="Search Engine(Google, Bing, etc.)">
                         Search Engine(Google, Bing, etc.)
