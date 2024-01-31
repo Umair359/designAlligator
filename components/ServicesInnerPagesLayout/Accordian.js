@@ -12,7 +12,7 @@ function Accordian({ eventKey, number, title, desc, img }) {
         </Accordion.Header>
         <Accordion.Body>
           <Image
-            src={`/images/${img}.webp`}
+            src={`/images/${img}`}
             className="accordian-image"
             width={500}
             height={500}

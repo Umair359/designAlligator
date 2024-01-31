@@ -26,7 +26,7 @@ const SectionContent6 = ({
         <Row
           className={`new_services_container gx-0 p-0 ${bgClass}`}
           style={{
-            backgroundImage: `url(../images/${img}.webp)`,
+            backgroundImage: `url(../images/${img})`,
           }}
         >
           {children}

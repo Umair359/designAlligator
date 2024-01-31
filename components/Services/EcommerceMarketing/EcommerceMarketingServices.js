@@ -6,7 +6,7 @@ import MobileServiceCard from "../../ServicesInnerPagesLayout/MobileServiceCard"
 
 const EcommerceMarketingServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("EcommerceMarketing/service-1");
+  const [img, setImg] = useState("EcommerceMarketing/service-1.webp");
 
   return (
     <>

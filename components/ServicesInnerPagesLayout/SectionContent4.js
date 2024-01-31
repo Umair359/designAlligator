@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const SectionContent4 = ({children,slider}) => {
   return (
-    <div className="my-5 pb-5">
+    <div className="my-5 pb-5 section4">
       <Container fluid className="w-95">
         <Row className="justify-content-center text-center logo_slider_main pb-4">
             <Col md={9}>

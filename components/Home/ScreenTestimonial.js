@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Stars from '../../public/images/NewUI/stars.png'
 function ScreenTestimonial({ d }) {
   return (
-    <div className="screen-testimonial">
+    <div className="screen-testimonial mx-2">
       <div
         className="testimonial-container"
         style={{

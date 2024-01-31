@@ -6,7 +6,7 @@ import { invitationServicesList } from "../servicesData";
 
 const InvitationServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("InvitationCard/service-1");
+  const [img, setImg] = useState("InvitationCard/service-1.webp");
 
   return (
     <>

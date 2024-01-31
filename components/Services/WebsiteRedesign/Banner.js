@@ -1,19 +1,16 @@
 import React from "react";
 
 import BannerSection from "../../ServicesInnerPagesLayout/BannerSection";
-import BannerImg from "../../../public/images/web-redesign-banner.webp";
+import BannerImg from "../../../public/images/web-design-banner1.png";
 
 const Banner = () => {
   return (
     <BannerSection image={BannerImg}>
       <h1 className="text-white">
-        Web Redesign Services
+      Professional Web Designing Services in Edmonton, Canada
       </h1>
       <p className="text-white">
-        We are experts in Redesigning Websites, focusing on creating engaging
-        user experiences and achieving successful outcomes. We pride ourselves
-        on our ability to communicate with the digital world in an effortless
-        and seamless way, just like an alligator whisperer.
+      At Design Alligators, we construct websites that excel in both visual appeal and functionality. Each site we design for our Edmonton customers serves a dedicated purpose: to inform and guide your clients to your doorstep.<span className="pink-bold"> We offer the best web designing services.</span>
       </p>
     </BannerSection>
   );
