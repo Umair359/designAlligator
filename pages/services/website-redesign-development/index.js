@@ -13,6 +13,7 @@ import Testimonial2 from "../../../public/images/webReDesign/testimonial-2.png";
 import Testimonial4 from "../../../public/images/webReDesign/testimonial-4.png";
 import Packages from "../../../components/Home/Packages";
 import NumberCounter from "../../../utils/NumberCounter"
+import DevelopmentAgency from "../../../components/Home/DevelopmentAgency";
 const index = () => {
   const data = [
     {
@@ -72,18 +73,13 @@ const index = () => {
           />
         </Head>
         <Banner />
-        <div className="Logo_designers_background">
-          <WebRedesignInfo />
-          <WebRedesignServices />
-          <WebRedesignProcess />
-          <WebsiteRedesignSlider />
-        </div>
-        <div className="packages-container my-20">
-          <Packages title="Our Packages" home={true} />
-        </div>
+        <WebRedesignInfo />
+        <WebRedesignServices />
+        <WebRedesignProcess />
+        <WebsiteRedesignSlider />
+        <Packages title="Our Packages" home={true} />
+        <DevelopmentAgency heading="Development Agency" subHeading="Website Designing Services Portfolio" text="Years of experience and a long list of satisfied clients have enabled us to become a Leading Website Development Agency in the fraternity. We thank Goodfirms to recognize us as a Top SEO Services Company." />
         <Testimonial data={data} />
-
-        {/*  */}
         <div className="achievement">
         <div>
           <NumberCounter startNumber={0} endNumber={1.2} duration={0.042} fixed={1} symbol="k +" />
@@ -109,7 +105,6 @@ const index = () => {
         </div>
 
       </div>
-        
         <OurClients />
         <HomeContact />
       </div>

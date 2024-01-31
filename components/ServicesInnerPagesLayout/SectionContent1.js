@@ -7,7 +7,7 @@ const SectionContent1 = ({ children, image, image2, center }) => {
     <Container fluid className="w-90 logo_designing_info_main">
       <Row>
         <Col
-          lg={image ? 6 : 12}
+          lg={6}
           className={`logo_designing_info_left d-flex flex-column ${center ? "justify-content-center" : "justify-content-start"
             }`}
         >

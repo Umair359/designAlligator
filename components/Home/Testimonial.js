@@ -55,6 +55,8 @@ const Testimonial = ({ data }) => {
   let testimonials = data ? data : testimonialData;
   const settings = {
     dots: false,
+    arrows: false,
+    centerMode: true,
     infinite: true,
     draggable: true,
     autoplay: true,
@@ -65,7 +67,7 @@ const Testimonial = ({ data }) => {
       {
         breakpoint: 1025,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {

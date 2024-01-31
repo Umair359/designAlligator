@@ -105,9 +105,6 @@
   background-position: center;
   margin-bottom: 80px;
 }
-.section4{
-  height: 100vh;
-}
 .packages-container{
   width: 100%;
   padding: 20px 0px;
@@ -430,9 +427,12 @@
   background-color: #fff;
   padding: 60px 50px;
 }
-
-.logo_designing_info_main img {
-  height: 90%;
+.section_1_img_box > img{
+  box-shadow: 1px 10px 50px #c7c1c1 !important;
+  height: 100%;
+}
+.section_1_img_box >.section-image-2{
+  height: 100% !important;
 }
 
 .logo_designing_info_left {
@@ -831,11 +831,6 @@
     width: 95%;
     height: 70px;
   }
-
-  .card-description {
-    /* font-size: 10px; */
-  }
-
   .package_content > div svg {
     width: 20px;
   }
@@ -1028,9 +1023,6 @@
   height: 20px;
 }
 
-.package_container span {
-}
-
 .package_container ul {
   list-style-image: url("../images/check.png");
 }
@@ -1082,7 +1074,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-left: 100px; */
 }
 
 .google_serp .section_1_img_box {
