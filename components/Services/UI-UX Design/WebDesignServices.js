@@ -6,7 +6,7 @@ import { webDesignServicesList } from "../servicesData";
 
 const WebDesignServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("UI-UXDesign/service-1");
+  const [img, setImg] = useState("UI-UXDesign/service-1.webp");
 
   return (
     <>

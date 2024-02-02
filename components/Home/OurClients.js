@@ -136,11 +136,7 @@ const OurClients = () => {
             <h6>Our Clients</h6>
             <h3>We work with brands</h3>
             <p>
-              We work with companies in all regions of the U.S. and beyond,
-              helping them put their best faces forward online. We aim to
-              provide outstanding results for our clients on every project we
-              undertake. We work with several international brands that trust us
-              with their web pages to gain outstanding results.
+              We work with companies in all regions of the U.S. and beyond, helping them put their best faces forward online. We aim to provide outstanding results for our clients on every project we undertake. We work with several international brands that trust us with their web pages to gain outstanding results.
             </p>
           </Col>
         </Row>

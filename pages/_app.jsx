@@ -5,6 +5,7 @@ import "../public/css/globals.css";
 import "../public/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../public/css/Home.css";
+import "../public/css/developmentAgency.css"
 import "../public/css/aboutus.css";
 import "../public/css/portfolio.css";
 import "../public/css/navbar.css";

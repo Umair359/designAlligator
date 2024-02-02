@@ -2,13 +2,10 @@ import Image from "next/image";
 import React from "react";
 import Slider from "react-slick";
 import SectionContent4 from "../../ServicesInnerPagesLayout/SectionContent4";
-import Website1 from "../../../public/images/webReDesign/1.webp";
-import Website2 from "../../../public/images/webReDesign/2.webp";
-import Website3 from "../../../public/images/webReDesign/3.webp";
-import Website4 from "../../../public/images/webReDesign/4.webp";
-import Website5 from "../../../public/images/webReDesign/5.webp";
-import Website6 from "../../../public/images/webReDesign/6.webp";
-import Website7 from "../../../public/images/webReDesign/7.webp";
+import Website1 from "../../../public/images/webReDesign/one.png";
+import Website2 from "../../../public/images/webReDesign/two.png";
+import Website3 from "../../../public/images/webReDesign/three.png";
+import Website4 from "../../../public/images/webReDesign/four.png";
 
 import { sliderSettings } from "../../../utils/sliderConfiguration";
 
@@ -26,14 +23,18 @@ const websiteData = [
     image: Website4,
   },
   {
-    image: Website5,
+    image: Website1,
   },
   {
-    image: Website6,
+    image: Website2,
   },
   {
-    image: Website7,
+    image: Website3,
   },
+  {
+    image: Website4,
+  },
+
   
 ];
 const WebsiteRedesignSlider = () => {
@@ -54,19 +55,11 @@ const WebsiteRedesignSlider = () => {
       }
     >
       <>
-        <h6>Website Redesign Portfolio</h6>
-        <h4>Creative Website Redesign Works</h4>
+        <h6>Website Designing Services Portfolio</h6>
+        <h4>Creative Website Design Works</h4>
         <p>
-          At Design Alligators, we understand that your website is the face of
-          your business, and a dull or outdated design can turn potential
-          customers away. That's why we offer professional Website Redesign
-          Services to help your website stand out from the crowd and deliver a
-          memorable user experience.
+        Recognizing that your website serves as the face of your business, we acknowledge that a lackluster or outdated design has the potential to deter potential customers. This is precisely why we provide specialized Website Redesign Services at our Professional Web Designing Services in Edmonton, Canada. Best web designing near me.
         </p>
-        <span>
-          As an alligator might say, "We snap into action so you don't have to
-          wait around!"
-        </span>
       </>
     </SectionContent4>
   );

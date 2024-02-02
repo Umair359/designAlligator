@@ -5,7 +5,7 @@ import MobileServiceCard from "../../ServicesInnerPagesLayout/MobileServiceCard"
 import ServicesCard from "../../ServicesInnerPagesLayout/ServicesCard";
 
 const FlyerServices = () => {
-  const [img, setImg] = useState("FlyerDesign/service-1");
+  const [img, setImg] = useState("FlyerDesign/service-1.webp");
   const [bgClass, setBgClass] = useState("service_bg_1");
 
   return (

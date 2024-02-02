@@ -6,17 +6,17 @@ import { webRedesignServicesList } from "../servicesData";
 
 const WebRedesignServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("webReDesign/service-1");
+  const [img, setImg] = useState("webReDesign/service-1-update.png");
 
   return (
     <>
       <MobileServiceCard
-        heading="Why Most Business Leaders Choose Design Alligators?"
+        heading="Why Choose Us for Website Designing Services"
         servicesList={webRedesignServicesList}
       />
 
       <SectionContent6
-        heading="Why Most Business Leaders Choose Design Alligators?"
+        heading="Why Choose Us for Website Designing Services"
         text=""
         bgClass={bgClass}
         img={img}

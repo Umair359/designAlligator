@@ -5,7 +5,7 @@ import ServicesCard from "../../ServicesInnerPagesLayout/ServicesCard";
 import MobileServiceCard from "../../ServicesInnerPagesLayout/MobileServiceCard";
 
 const MenuDesignServices = () => {
-  const [img, setImg] = useState("MenuDesign/service-1");
+  const [img, setImg] = useState("MenuDesign/service-1.webp");
   const [bgClass, setBgClass] = useState("service_bg_1");
 
   return (

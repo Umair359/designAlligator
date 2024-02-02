@@ -3,6 +3,10 @@
   text-decoration: none !important;
   font-weight: 500;
 }
+.pink-bold{
+  color: #e50a5c;
+  font-weight: bold;
+}
 /* ************************************************* */
 /* ***************** Services****************** */
 /* ************************************************* */
@@ -101,13 +105,18 @@
   background-position: center;
   margin-bottom: 80px;
 }
+.packages-container{
+  width: 100%;
+  padding: 20px 0px;
+  height: 150vh;
+}
 
 .logo-banner-left {
   padding: 60px 0px;
 }
 
 .logo-banner-left h1 {
-  font-size: 42px;
+  font-size: 35px;
   font-weight: 800;
 }
 
@@ -176,7 +185,6 @@
   height: 467px;
   width: 100%;
   padding: 0px 10px;
-  border-bottom: 5px solid #04e4ff;
 }
 
 .new_service_section-1,
@@ -419,9 +427,14 @@
   background-color: #fff;
   padding: 60px 50px;
 }
-
-.logo_designing_info_main img {
-  /* height: 100%; */
+.section_1_img_box > img{
+  box-shadow: 1px 10px 50px #c7c1c1 !important;
+}
+.section_1_img_box >.section-image-2{
+  height: 100% !important;
+}
+.section_1_img_box >.section-image-1{
+  height: 90% !important;
 }
 
 .logo_designing_info_left {
@@ -820,11 +833,6 @@
     width: 95%;
     height: 70px;
   }
-
-  .card-description {
-    /* font-size: 10px; */
-  }
-
   .package_content > div svg {
     width: 20px;
   }
@@ -1017,9 +1025,6 @@
   height: 20px;
 }
 
-.package_container span {
-}
-
 .package_container ul {
   list-style-image: url("../images/check.png");
 }
@@ -1067,7 +1072,7 @@
 }
 
 .section_1_img_box {
-  height: 100%;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;

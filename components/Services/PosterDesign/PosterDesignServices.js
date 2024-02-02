@@ -5,7 +5,7 @@ import ServicesCard from "../../ServicesInnerPagesLayout/ServicesCard";
 import { posterServicesList } from "../servicesData";
 
 const PosterDesignServices = () => {
-  const [img, setImg] = useState("PosterDesign/service-1");
+  const [img, setImg] = useState("PosterDesign/service-1.webp");
   const [bgClass, setBgClass] = useState("service_bg_1");
 
   return (

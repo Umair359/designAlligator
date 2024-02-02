@@ -6,7 +6,7 @@ import { mobileAppServicesList } from "../servicesData";
 
 const MobileAppServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("mobileAppDevelopment/service-1");
+  const [img, setImg] = useState("mobileAppDevelopment/service-1.webp");
 
   return (
     <>

@@ -6,7 +6,7 @@ import ServicesCard from "../../ServicesInnerPagesLayout/ServicesCard";
 
 const LogoDesignServices = () => {
   const [bgClass, setBgClass] = useState("service_bg_1");
-  const [img, setImg] = useState("logoDesign/service-1");
+  const [img, setImg] = useState("logoDesign/service-1.webp");
 
   return (
     <>
