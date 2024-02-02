@@ -1010,11 +1010,148 @@
   font-size: 60px;
   padding: 0px 20px;
 }
-
-.Packages {
-  /* padding-left: 10%; */
-  /* padding-right: 10%; */
+.mega-Package {
+  margin-top: 100px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
 }
+.mega-Package-heading {
+  text-align: center;
+  background-image: linear-gradient(45deg, #61127d, #f10161);
+  color: white;
+  border-radius: 15px 15px 0 0;
+}
+.mega-Package-heading > h2 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.mega-Package-heading > p {
+  font-size: 20px;
+  color: white;
+}
+.mega-Package-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.mega-Package-content > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  height: 520px;
+  width: 70%;
+}
+.mega-Package-content > div:first-child > div > h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.mega-Package-content > div:first-child > div > ul {
+  list-style-image: url("/images/NewUI/nextArrowIcon3.png");
+}
+.mega-Package-content > div:first-child > div > ul > li {
+  width: 90%;
+  text-overflow: clip;
+}
+
+.combo-package-card {
+  background-image: linear-gradient(45deg, #61127d, #f10161);
+  width: 30%;
+  text-align: center;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s ease;
+}
+.combo-package-card:hover {
+  background-color: white;
+  background-image: none;
+  transform: scale(1.05);
+  color: #cc2b5e;
+}
+.combo-package-card:hover button {
+  background-image: linear-gradient(45deg, #61127d, #f10161);
+  color: white;
+}
+.combo-package-card:hover > div:nth-child(3) {
+  background-image: linear-gradient(45deg, #61127d, #f10161);
+  color: white;
+}
+.combo-package-card > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.combo-package-card > div:nth-child(2) > h1 {
+  font-size: 70px;
+  color: inherit;
+  line-height: 1;
+}
+.combo-package-card > div:nth-child(2) > h5 {
+  text-decoration: line-through;
+  align-self: flex-end;
+  position: relative;
+  right: 30px;
+}
+.combo-package-card > div:nth-child(2) > p {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.combo-package-card > div:nth-child(3) {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  color: #cc2b5e;
+}
+.combo-package-card > div:nth-child(3) > h4 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.combo-package-card button {
+  background-image: whtie;
+  font-weight: 500;
+  border: none;
+  padding: 10px 30%;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  box-shadow: #14029b62 0px 7px 29px 0px;
+  transition: all 0.5s ease;
+  color: #cc2b5e;
+  margin: 15px;
+}
+
+@media (max-width: 1200px) {
+  .mega-Package-content > div:first-child {
+    flex-wrap: nowrap;
+    width: 50%;
+  }
+  .mega-Package-content > div:nth-child(2) {
+    width: 50%;
+  }
+  .mega-Package-content > div:first-child {
+    height: fit-content;
+  }
+}
+@media (max-width: 768px) {
+  .mega-Package-content {
+    flex-direction: column-reverse !important;
+  }
+  .mega-Package-content > div {
+    width: 100% !important;
+    margin-top: 40px !important;
+  }
+}
+@media (max-width: 576px) {
+}
+
 .packages_tabs {
   margin-bottom: 20px;
 }

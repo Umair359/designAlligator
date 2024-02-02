@@ -83,6 +83,88 @@ function Packages({ home, title, page }) {
             })}
           </Slider>
         </div>
+
+        <div className="mega-Package" >
+          <div className="mega-Package-heading" >
+            <h2>ALL IN ONE COMBO</h2>
+            <p>Our services are suitable for potential super-startups and brand to revamp</p>
+          </div>
+          <div className="mega-Package-content" >
+            <div>
+              <div>
+                <h5>LOGO DESIGN SERVIES</h5>
+                <ul>
+                  <li>5 Cusotm Logo Design Concept</li>
+                  <li>Dedicated Designer Team</li>
+                  <li>Icon Design</li>
+                  <li>File Formats (PSD,ADF,AI,JPEG,PNG)</li>
+                </ul>
+              </div>
+              <div>
+                <h5>STATIONARY SERVICES</h5>
+                <ul>
+                  <li>MS Word Letterhead</li>
+                  <li>Buisness Card</li>
+                  <li>Letterhead</li>
+                  <li>Envelop, Fax Template</li>
+                </ul>
+              </div>
+              <div>
+                <h5>SOCIAL MEDIA SERVICES</h5>
+                <ul>
+                  <li>Facebook Page Design</li>
+                  <li>Twitter Page Design</li>
+                  <li>Youtube Page Design</li>
+                  <li>Google+ Page Design</li>
+                  <li>All Final File Formats</li>
+                </ul>
+              </div>
+              <div>
+                <h5>WEBSITE SERVICES</h5>
+                <ul>
+                  <li>10 Pages Website Design</li>
+                  <li>CMS/Admin Panel</li>
+                  <li>Mobile Responsive</li>
+                  <li>Team of Expert Web Designer & Developer</li>
+                  <li>8 Stock images</li>
+                  <li>5 Banner Design</li>
+                  <li>Jquery Sliders</li>
+                  <li>Free Google Friendly Sitemap</li>
+                  <li>Complete W3C Certified HTMI</li>
+                  <li>Complete Deployment</li>
+                </ul>
+              </div>
+              <div>
+                <h5>VALUE-ADDED SERVICES</h5>
+                <ul>
+                  <li>All Final File Formats</li>
+                  <li>Dedicated Account Manager</li>
+                  <li>100% Ownership Rights</li>
+                  <li>100% Satisfaction Guarantee</li>
+                  <li>100% Unique Design Guarantee</li>
+                  <li>100% Money-Back Guarantee</li>
+                </ul>
+              </div>
+            </div>
+            <div className="combo-package-card" >
+              <div>
+                <h3>COMBO PACKAGES</h3>
+                <h5>Company Branding Solution</h5>
+              </div>
+              <div>
+                <h1>$4499</h1>
+                <h5>$5000</h5>
+                <p>Only</p>
+              </div>
+              <div>
+                <h4>03 Months Installments</h4>
+              </div>
+              <button>
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
       </Container>
       <Modal
         show={show}
