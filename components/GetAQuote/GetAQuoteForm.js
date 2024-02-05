@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
-import Recaptcha from "../Layouts/ReCaptcha/Recaptcha";
+// import Recaptcha from "../Layouts/ReCaptcha/Recaptcha";
 import PhoneInput from "react-phone-number-input";
 import { useState } from "react";
 import axios from "axios";
@@ -16,8 +16,8 @@ const GetAQuoteForm = () => {
     service_required: "",
     hear_by: "",
   });
-  const captchaRef = useRef(null);
-  const [recaptcha, setRecaptcha] = useState("");
+  // const captchaRef = useRef(null);
+  // const [recaptcha, setRecaptcha] = useState("");
 
   const handleQuote = (e) => {
     setQuoteDetails((prev) => {
@@ -26,24 +26,24 @@ const GetAQuoteForm = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (recaptcha) {
-      const res = await axios.post("/api/send-quote", { ...quoteDetails, phone: phoneNumber });
-      console.log(res?.data?.message, "res");
-      successNotify(res?.data?.message);
-      captchaRef.current.reset();
-      setQuoteDetails({
-        service: "Branding & Design",
-        name: "",
-        email: "",
-        organization: "",
-        message: "",
-        service_required: "",
-        hear_by: "",
-      });
-      setPhoneNumber("");
-    } else {
-      alert("Please confirm you're not a robot!");
-    }
+    // if (recaptcha) {
+    const res = await axios.post("/api/send-quote", { ...quoteDetails, phone: phoneNumber });
+    console.log(res?.data?.message, "res");
+    successNotify(res?.data?.message);
+    // captchaRef.current.reset();
+    setQuoteDetails({
+      service: "Branding & Design",
+      name: "",
+      email: "",
+      organization: "",
+      message: "",
+      service_required: "",
+      hear_by: "",
+    });
+    setPhoneNumber("");
+    // } else {
+    //   alert("Please confirm you're not a robot!");
+    // }
   };
   return (
     <div className="mt-5 get_a_quote_main">
@@ -240,7 +240,7 @@ const GetAQuoteForm = () => {
                     details in the above box.
                   </p>
                   <Col md={12}>
-                    <Recaptcha setRecaptcha={setRecaptcha} ref={captchaRef} />
+                    {/* <Recaptcha setRecaptcha={setRecaptcha} ref={captchaRef} /> */}
                   </Col>
 
                   <Col md={12}>
