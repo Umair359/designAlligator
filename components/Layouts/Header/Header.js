@@ -111,7 +111,7 @@ const Header = () => {
             </nav>
           </div>
 
-          <button>
+          <button onClick={() => router.push(`get-a-quote`)}  >
             Get a Quote
           </button>
         </div>
