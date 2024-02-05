@@ -86,8 +86,8 @@ const Footer = () => {
             <h4 className="pb-2">Information</h4>
             <div>
               <FaPhoneAlt />
-              <a href="tel:+19173101802" aria-label="Phone">
-                <p>+1 917-310-1802</p>
+              <a href="tel:+18722784801" aria-label="Phone">
+                <p>+1 872-278-4801</p>
               </a>
             </div>
             <div>
@@ -186,7 +186,7 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <hr />
+      <hr />INFORMATION
       <div style={{ fontSize: "18px" }} className="text-center copyrights">
         © 2023 Design Alligators. All Rights Reserved.{" "}
       </div>

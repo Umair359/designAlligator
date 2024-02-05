@@ -27,10 +27,10 @@ const Navbar = () => {
                     </div>
                     <div>
                       <FaPhoneAlt fill="#F10161" />
-                      <a href="tel:+19173101802" aria-label="Phone"><p className="number">+1 917 310 1802</p></a>
+                      <a href="tel:+18722784801" aria-label="Phone"><p className="number">+1 872-278-4801</p></a>
                     </div>
                   </div>
-                 
+
                 </div>
               </Col>
             </div>

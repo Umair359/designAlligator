@@ -3,7 +3,7 @@ import { sendEmail } from '../../lib/sendgrid';
 export default async (req, res) => {
   const { service, name, email, organization, phone, service_required, hear_by, message } = req.body;
   try {
-    await sendEmail('Design Alligators', name, email, phone, '', message, organization, service, service_required, hear_by);
+    sendEmail('Design Alligators', name, email, phone, '', message, organization, service, service_required, hear_by);
 
     res.status(200).json({ message: 'Email sent successfully' });
   } catch (error) {

@@ -52,8 +52,8 @@ const ServiceCard = ({
           </li>
           <li>|</li>
           <li>
-            <a href="tel:+19173101802">
-              <IoCall fill="#61127d" /> +1 917 310 1802
+            <a href="tel:+18722784801">
+              <IoCall fill="#61127d" /> +1 872-278-4801
             </a>
           </li>
         </ul>
