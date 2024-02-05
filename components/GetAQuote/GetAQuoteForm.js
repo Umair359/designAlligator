@@ -26,21 +26,21 @@ const GetAQuoteForm = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!recaptcha) {
+    if (recaptcha) {
       const res = await axios.post("/api/send-quote", { ...quoteDetails, phone: phoneNumber });
       console.log(res?.data?.message, "res");
       successNotify(res?.data?.message);
-      // captchaRef.current.reset();
-      // setQuoteDetails({
-      //   service: "Branding & Design",
-      //   name: "",
-      //   email: "",
-      //   organization: "",
-      //   message: "",
-      //   service_required: "",
-      //   hear_by: "",
-      // });
-      // setPhoneNumber("");
+      captchaRef.current.reset();
+      setQuoteDetails({
+        service: "Branding & Design",
+        name: "",
+        email: "",
+        organization: "",
+        message: "",
+        service_required: "",
+        hear_by: "",
+      });
+      setPhoneNumber("");
     } else {
       alert("Please confirm you're not a robot!");
     }
