@@ -16,21 +16,21 @@ import Testimonial3 from "../../../public/images/UI-UXDesign/testimonial-3.png"
 const index = () => {
   const data = [
     {
-      bgColor: "#841daa",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "Working with Design Alligators was a fantastic experience. Their team took my outdated website and transformed it into a modern and sleek platform that truly represents my business!",
+        "Working with Design Alligators was a fantastic experience. Their team took my outdated website and transformed it into a modern and sleek platform that truly represents my business!",
       designation: "- Sarah Smith, CEO of Smith Consulting Firm",
     },
     {
-      bgColor: "#3f5548",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "I had been struggling with my website for months, trying to redesign it myself with no success. Design Alligators came to my rescue and provided me with not only a beautiful website but also excellent customer service.",
-        designation:"- John Doe, owner of Doe's Bakery"
+      designation: "- John Doe, owner of Doe's Bakery"
     },
     {
-      bgColor: "#aa061b",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I had been hesitant to invest in a website design for my small business, but after working with Design Alligators, I can confidently say that it was the best decision I made for my business.",
@@ -41,7 +41,7 @@ const index = () => {
     <div className="service_page">
       <Head>
         <title>
-        Website Design Services in USA | Design Alligators
+          Website Design Services in USA | Design Alligators
         </title>
         <link rel="icon" href="/favicon2.png" />
         <meta
@@ -59,7 +59,7 @@ const index = () => {
       <WebDesignProcess />
       <WebDesignServices />
       <WebDesignSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

@@ -61,6 +61,7 @@ const Testimonial = ({ data }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 1025,

@@ -17,21 +17,21 @@ import Testimonial3 from "../../../public/images/EmailMarketing/testimonial-3.pn
 const index = () => {
   const data = [
     {
-      bgColor: "#2e151f",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I highly recommend Design Alligators for their exceptional PPC Services. Their team is professional, knowledgeable, and always willing to go the extra mile to ensure our Email Marketing Campaigns are successful.",
+        "I highly recommend Design Alligators for their exceptional PPC Services. Their team is professional, knowledgeable, and always willing to go the extra mile to ensure our Email Marketing Campaigns are successful.",
       designation: "- Mark Johnson, CEO of XYZ Corporation",
     },
     {
-      bgColor: "#321313",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators has been an amazing partner for our Email Marketing needs. They take the time to understand our business and audience, and their Email Marketing Campaigns have consistently exceeded our expectations.",
-        designation:"- Farrah Nick, Marketing Director of ABC Company"
+      designation: "- Farrah Nick, Marketing Director of ABC Company"
     },
     {
-      bgColor: "#161117",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I've worked with several Email Marketing Companies, but none have been as effective and responsive as Professional Email Marketing Company in USA. Their team is truly dedicated to our success, and they always go above and beyond to ensure our campaigns deliver results.",
@@ -49,7 +49,7 @@ const index = () => {
           name="description"
           content="Our Email Marketing Services will complement all of your current marketing efforts. We're an award-winning Email Marketing Company in USA."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/email-marketing"
           key="canonical"
@@ -58,13 +58,13 @@ const index = () => {
       <Banner />
       <div className="Logo_designers_background">
 
-      <EmailMarketingInfo />
-      <EmailProcess />
-      <ProfessionalEmailMarketers />
+        <EmailMarketingInfo />
+        <EmailProcess />
+        <ProfessionalEmailMarketers />
       </div>
       <EmailServices />
       <EmailMarketingSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

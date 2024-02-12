@@ -19,21 +19,21 @@ import Testimonial3 from "../../../public/images/mobileAppDevelopment/testimonia
 const index = () => {
   const data = [
     {
-      bgColor: "#50320c",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I am thrilled with the Mobile Application Design Alligators created for my business! The team listened carefully to my requirements and ideas and created a stunning, user-friendly, high-performing Mobile App that exceeded my expectations.",
+        "I am thrilled with the Mobile Application Design Alligators created for my business! The team listened carefully to my requirements and ideas and created a stunning, user-friendly, high-performing Mobile App that exceeded my expectations.",
       designation: "- Sarah Jones, Owner of Sarah's Boutique",
     },
     {
-      bgColor: "#041f2d",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators is a talented and professional Mobile App Development Agency. They provided excellent service from start to finish and were always available to answer my questions and concerns",
-        designation:"- John Smith, CEO of Smith Enterprises"
+      designation: "- John Smith, CEO of Smith Enterprises"
     },
     {
-      bgColor: "#070b22",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I cannot thank Design Alligators enough for the incredible Mobile App they created for my business. They worked tirelessly to ensure that every aspect of the App was perfect, and the result is a visually stunning and highly functional Mobile App that has boosted my business.",
@@ -49,7 +49,7 @@ const index = () => {
           name="description"
           content="Design Alligators provides Mobile Application Development Services. Hire Custom Mobile App Developers in the United States."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/mobile-application-development"
           key="canonical"
@@ -65,7 +65,7 @@ const index = () => {
       <MobileAppServices />
       {/* <WhyChooseUsForMobileAppDev /> */}
       <MobileAppDevSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

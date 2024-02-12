@@ -17,21 +17,21 @@ import Testimonial3 from "../../../public/images/CatalogueDesign/testimonial-3.p
 const index = () => {
   const data = [
     {
-      bgColor: "#5b4d3a",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I was blown away by the Catalogue Design Services provided by Design Alligators. The team listened to my vision and brought it to life in a way that exceeded my expectations. The design was visually stunning and easy to navigate, making it a pleasure for customers to use!",
+        "I was blown away by the Catalogue Design Services provided by Design Alligators. The team listened to my vision and brought it to life in a way that exceeded my expectations. The design was visually stunning and easy to navigate, making it a pleasure for customers to use!",
       designation: "- Rachel Jones, Owner of Jones Fine Jewelry",
     },
     {
-      bgColor: "#9a1e20",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators did an amazing job with our Catalogue Design. The team was responsive, professional, and took the time to understand our brand and target audience. The final product was functional and beautiful, and we have received numerous compliments on its design.",
-        designation:"- John Kim, Marketing Director at Zenith Electronics"
+      designation: "- John Kim, Marketing Director at Zenith Electronics"
     },
     {
-      bgColor: "#543a5b",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I am so happy I chose Design Alligators for my catalogue design needs. They could turn my scattered ideas into a cohesive and visually stunning catalogue. The team was patient, communicative, and willing to make revisions until I was completely satisfied with the final product.",
@@ -49,7 +49,7 @@ const index = () => {
           name="description"
           content="Get professional and eye-catching catalogue design services in Los Angeles. Let our team of experts create a high-quality catalog."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/catalogue-design"
           key="canonical"
@@ -63,7 +63,7 @@ const index = () => {
       </div>
       <CatalogueDesignServices />
       <CatalogueDesignPortfolio />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

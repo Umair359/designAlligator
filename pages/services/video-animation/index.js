@@ -17,21 +17,21 @@ import Packages from "../../../components/Home/Packages";
 const index = () => {
   const data = [
     {
-      bgColor: "#7b2b50",
+      bgColor: "white",
       person: Testimonial1,
       comment:
         "I had a fantastic experience working with Design Alligators for my video animation needs. As a small business owner, I was looking for a way to showcase my products and services in a fun and engaging way, and their team delivered exactly what I was looking for",
       designation: "- Jane Smith, Owner of Smith's Boutique",
     },
     {
-      bgColor: "#4b3941",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators is the best Video Animation Service I have ever used. Their team is professional, creative, and really took the time to understand my vision. They created a video that exceeded my expectations, and I cannot recommend them enough!",
       designation: "- John Doe, Marketing Manager at Xyro Company",
     },
     {
-      bgColor: "#081835",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I was blown away by the quality of the video animation that Design Alligators created for my brand. It was visually stunning and helped us stand out from our competitors. Their team was easy to work with, responsive, and went above and beyond to ensure our satisfaction.",
@@ -61,9 +61,9 @@ const index = () => {
       </div>
       <WhyChooseUsForAnimations />
       <VideoAnimationSlider />
-      <Packages title="Video Animation Packages" page="Video Animation"/>
+      <Packages title="Video Animation Packages" page="Video Animation" />
 
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

@@ -15,22 +15,22 @@ import Testimonial4 from "../../../public/images/webReDesign/testimonial-4.png";
 const index = () => {
   const data = [
     {
-      bgColor: "#3d3b46",
+      bgColor: "white",
       person: Testimonial2,
       comment:
-      "I cannot recommend Design Alligators enough for their outstanding Web Redesign Services. They transformed our outdated website into a modern and visually stunning platform that truly represents our brand!",
+        "I cannot recommend Design Alligators enough for their outstanding Web Redesign Services. They transformed our outdated website into a modern and visually stunning platform that truly represents our brand!",
       designation: "- Alex Lee, Marketing Director at GreenLife",
     },
     {
-      bgColor: "linear-gradient(to right,#A71D31,#3F0D12)",
+      bgColor: "white",
       person: Testimonial1,
-      
+
       comment:
         "Working with Design Alligators for our Website Redesign was a seamless and enjoyable experience. They took the time to understand our goals and vision for the website and delivered beyond our expectations.",
       designation: "Samantha Hernandez, CEO at Spark Agency",
     },
     {
-      bgColor: "linear-gradient(to right,#1E3B70,#29539B)",
+      bgColor: "white",
       person: Testimonial4,
       comment:
         "Design Alligators exceeded our expectations with their Web Redesign Services. They not only enhanced the website's aesthetics but also optimized its functionality and user experience.",
@@ -41,14 +41,14 @@ const index = () => {
     <div className="service_page">
       <Head>
         <title>
-        Website Redesign Services | New York Company
+          Website Redesign Services | New York Company
         </title>
         <link rel="icon" href="/favicon2.png" />
         <meta
           name="description"
           content="Transform your Website's existing look and feel by getting Professional Website Redesign Services in New York."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/website-redesign-development"
           key="canonical"
@@ -61,7 +61,7 @@ const index = () => {
       </div>
       <WebRedesignServices />
       <WebsiteRedesignSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

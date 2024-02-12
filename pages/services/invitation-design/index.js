@@ -16,21 +16,21 @@ import Testimonial3 from "../../../public/images/InvitationCard/testimonial-3.pn
 const index = () => {
   const data = [
     {
-      bgColor: "#000000",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I had a great experience working with Design Alligators for my wedding invitation cards. Their team was very professional and patient with all of my requests. The final product was beautiful and exceeded my expectations. Thank you, Design Alligators!",
+        "I had a great experience working with Design Alligators for my wedding invitation cards. Their team was very professional and patient with all of my requests. The final product was beautiful and exceeded my expectations. Thank you, Design Alligators!",
       designation: "- Stephany Ian, Madlabs",
     },
     {
-      bgColor: "#0d1c2b",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators provided exceptional service for our business event invitations. The team was responsive and worked within our tight deadline. The quality of the invitation cards was outstanding and we received many compliments from our guests.",
-        designation:"- David Lee, Owner at Floratronics"
+      designation: "- David Lee, Owner at Floratronics"
     },
     {
-      bgColor: "#2b250d",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I am so glad I found Design Alligators for my daughter's birthday invitations. Their team was creative, flexible and went above and beyond to bring my vision to life. The invitations turned out better than I could have imagined and my daughter loved them.",
@@ -48,7 +48,7 @@ const index = () => {
           name="description"
           content="We at Design Alligators can provide you with high-quality Invitation Card Designing Services for your upcoming event. With our help"
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/invitation-design"
           key="canonical"
@@ -61,7 +61,7 @@ const index = () => {
       </div>
       <InvitationServices />
       <InvitationPortfolio />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

@@ -17,21 +17,21 @@ import Testimonial3 from "../../../public/images/branding/testimonial-3.png"
 const index = () => {
   const data = [
     {
-      bgColor: "#553e25",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "Working with Design Alligators was a game-changer for my business. Their branding and design services helped me to create a strong, cohesive brand image that resonates with my target audience. I'm so grateful for their expertise and guidance throughout the entire process. Thank you, Design Alligators!",
+        "Working with Design Alligators was a game-changer for my business. Their branding and design services helped me to create a strong, cohesive brand image that resonates with my target audience. I'm so grateful for their expertise and guidance throughout the entire process. Thank you, Design Alligators!",
       designation: "- Jessica Smith, Owner of The Greenhouse Co.",
     },
     {
-      bgColor: "#010e16",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "I can't say enough about the exceptional branding and design services provided by Design Alligators. They helped me to create a brand identity that accurately reflects my business and values. Their attention to detail and willingness to go above and beyond exceeded my expectations. I highly recommend Design Alligators to anyone looking to elevate their brand",
-        designation:"- John Doe, CEO of Doe Industries"
+      designation: "- John Doe, CEO of Doe Industries"
     },
     {
-      bgColor: "#b6434f",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "Design Alligators helped me to take my business to the next level with their branding and design services. They listened carefully to my vision and worked collaboratively with me to create a brand identity that truly represents my business. Their creativity, expertise, and professionalism are second to none. I'm so glad I chose Design Alligators for my branding needs.",
@@ -61,7 +61,7 @@ const index = () => {
       <OurAgency />
       <BrandingServices />
       <BrandingSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

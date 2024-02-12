@@ -478,7 +478,7 @@ const Header = () => {
               </Row>
             </NavDropdown>
             <Link href={'/portfolios'}>Our Portfolios</Link>
-            <Link href={'/blog'}>Blog</Link>
+            <Link href={'https://blog.designalligators.com'}>Blog</Link>
             <Link href={'/contact-us'}>Contact us</Link>
           </nav>
           <div onClick={() => setIsMenuOpen(!isMenuOpen)} className="monbile-nav" >

@@ -20,21 +20,21 @@ import Testimonial3 from "../../../public/images/EcommerceMarketing/testimonial-
 const index = () => {
   const data = [
     {
-      bgColor: "#750d0d",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I have been working with Design Alligators for over a year and am extremely satisfied with their eCommerce Marketing Services. Their team is knowledgeable, professional, and always goes above and beyond to ensure my campaigns succeed.",
+        "I have been working with Design Alligators for over a year and am extremely satisfied with their eCommerce Marketing Services. Their team is knowledgeable, professional, and always goes above and beyond to ensure my campaigns succeed.",
       designation: "- John Smith, CEO of Smith's Sporting Goods",
     },
     {
-      bgColor: "#5f091d",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "I recently hired Design Alligators to revamp my Email Marketing Campaigns, and I am thrilled with the results. Their team created engaging and personalized emails that helped me connect with my customers and increase my sales.",
-        designation:"- Jane Doe, Owner of Doe's Jewelry Store"
+      designation: "- Jane Doe, Owner of Doe's Jewelry Store"
     },
     {
-      bgColor: "#2e151f",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I can't say enough good things about Design Alligators. Their eCommerce Marketing Solutions have helped my online business grow significantly over the past few months. They took the time to understand my business needs and goals.",
@@ -52,7 +52,7 @@ const index = () => {
           name="description"
           content="Design Alligators have Professional eCommerce Marketers who can grow your Business through Ecommerce Marketing Services."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/ecommerce-marketing"
           key="canonical"
@@ -69,7 +69,7 @@ const index = () => {
       <EcommerceMarketingServices />
       {/* <WhyChooseUsForEcommerceMarketing /> */}
       <EcommerceMarketingSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

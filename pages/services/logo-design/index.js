@@ -18,21 +18,21 @@ import Packages from "../../../components/Home/Packages"
 const index = () => {
   const data = [
     {
-      bgColor: "#b7adad",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I had been struggling to create a logo for my business for months until I stumbled upon Design Alligators. Their team of talented designers worked with me every step of the way to create the perfect logo that truly represents my brand. I couldn't be happier with the end result",
+        "I had been struggling to create a logo for my business for months until I stumbled upon Design Alligators. Their team of talented designers worked with me every step of the way to create the perfect logo that truly represents my brand. I couldn't be happier with the end result",
       designation: "- Sarah Johnson, owner of Sarah's Sweets Bakery",
     },
     {
-      bgColor: "#3f5548",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators made the logo design process so easy and stress-free. Their team of designers is extremely talented, and they were able to create a logo that was exactly what I had envisioned for my business. I would highly recommend their services to anyone needing a high-quality logo",
-        designation:"- John Smith, owner of Smith Consulting"
+      designation: "- John Smith, owner of Smith Consulting"
     },
     {
-      bgColor: "#aa061b",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "Design Alligators exceeded my expectations with their logo design services. They truly took the time to understand my business and what I wanted my logo to represent. Their team of designers are not only talented but also professional and easy to work with. I am so grateful for their expertise and would highly recommend them to anyone needing a new logo.",
@@ -43,7 +43,7 @@ const index = () => {
     <div className="service_page">
       <Head>
         <title>
-        Professional Logo Design Services in USA | Design Alligators 
+          Professional Logo Design Services in USA | Design Alligators
         </title>
         <link rel="icon" href="/favicon2.png" />
         <meta
@@ -64,9 +64,9 @@ const index = () => {
       <LogoDesignServices />
       <LogoSliders />
       {/* <LogoPackages /> */}
-      <Packages title="Logo Packages"/>
+      <Packages title="Logo Packages" />
       {/* <LogoPackages /> */}
-      <Testimonial data={data}/>
+      <Testimonial />
       <Achievements />
       <OurClients />
       <HomeContact />

@@ -30,7 +30,7 @@ const OurWork = () => {
 
   return (
     <div className="my-5">
-      <Container fluid className="w-90 ">
+      <Container fluid className="w-90 bg-white">
         <Row className="text-center justify-content-center our_portfolios_main">
           <Col md={8}>
             <h1>
@@ -53,43 +53,38 @@ const OurWork = () => {
 
             <h2 className="portfolio-title">Design</h2>
             <p
-              className={`${
-                viewItems === "logo-designs" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "logo-designs" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("logo-designs")}
             >
               Logo Designs
             </p>
             <p
-              className={`${
-                viewItems === "brand-designs" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "brand-designs" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("brand-designs")}
             >
               Brand & Visual Design
             </p>
             <p
-              className={`${
-                viewItems === "ui-ux-designs" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "ui-ux-designs" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("ui-ux-designs")}
             >
               UI/UX Designs
             </p>
             <p
-              className={`${
-                viewItems === "video-animations" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "video-animations" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("video-animations")}
             >
               Video Animations
             </p>
             <p
-              className={`${
-                viewItems === "mobile-app-designs"
-                  ? "text-green"
-                  : " portfolio-item "
-              } portfolio-item`}
+              className={`${viewItems === "mobile-app-designs"
+                ? "text-green"
+                : " portfolio-item "
+                } portfolio-item`}
               onClick={() => handleViewItems("mobile-app-designs")}
             >
               Mobile App Designs
@@ -98,42 +93,37 @@ const OurWork = () => {
             <hr />
             <h2 className="portfolio-title">Development</h2>
             <p
-              className={`${
-                viewItems === "website-development" ? "text-green" : ""
-              }  portfolio-item`}
+              className={`${viewItems === "website-development" ? "text-green" : ""
+                }  portfolio-item`}
               onClick={() => handleViewItems("website-development")}
             >
               Website Development
             </p>
             <p
-              className={`${
-                viewItems === "website-redesign" ? "text-green" : ""
-              }  portfolio-item`}
+              className={`${viewItems === "website-redesign" ? "text-green" : ""
+                }  portfolio-item`}
               onClick={() => handleViewItems("website-redesign")}
             >
               Website Redesign
             </p>
             <p
-              className={`${
-                viewItems === "web-app-development" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "web-app-development" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("web-app-development")}
             >
               Web App Development
             </p>
             <p
-              className={`${
-                viewItems === "ecommerce-development" ? "text-green" : ""
-              }  portfolio-item`}
+              className={`${viewItems === "ecommerce-development" ? "text-green" : ""
+                }  portfolio-item`}
               onClick={() => handleViewItems("ecommerce-development")}
             >
               Ecommerce Solutions
             </p>
 
             <p
-              className={`${
-                viewItems === "mobile-app-development" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "mobile-app-development" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("mobile-app-development")}
             >
               Mobile App Development
@@ -141,57 +131,50 @@ const OurWork = () => {
             <hr />
             <h2 className="portfolio-title">Print</h2>
             <p
-              className={`${
-                viewItems === "t-shirt-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "t-shirt-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("t-shirt-design")}
             >
               T-Shirt Design
             </p>
             <p
-              className={`${
-                viewItems === "invitation-card-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "invitation-card-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("invitation-card-design")}
             >
               Invitation Card Design
             </p>
             <p
-              className={`${
-                viewItems === "flyer-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "flyer-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("flyer-design")}
             >
               Flyer Design
             </p>
             <p
-              className={`${
-                viewItems === "brochure-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "brochure-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("brochure-design")}
             >
               Brochure Design
             </p>
             <p
-              className={`${
-                viewItems === "catalogue-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "catalogue-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("catalogue-design")}
             >
               Catalogue Design
             </p>
             <p
-              className={`${
-                viewItems === "menu-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "menu-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("menu-design")}
             >
               Menu Design
             </p>
             <p
-              className={`${
-                viewItems === "poster-design" ? "text-green" : ""
-              } portfolio-item`}
+              className={`${viewItems === "poster-design" ? "text-green" : ""
+                } portfolio-item`}
               onClick={() => handleViewItems("poster-design")}
             >
               Poster Design

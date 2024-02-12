@@ -17,21 +17,21 @@ import Testimonial3 from "../../../public/images/FlyerDesign/testimonial-3.png";
 const index = () => {
   const data = [
     {
-      bgColor: "#251314",
+      bgColor: "white",
       person: Testimonial1,
       comment:
         "I recently hired Design Alligators to create a flyer for an upcoming event and was extremely impressed with their work. The team at Design Alligators was professional, creative, and attentive to my needs throughout the entire process.",
       designation: "- Tim Johnson, CEO of Johnson Marketing Solutions",
     },
     {
-      bgColor: "#251321",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "I needed a flyer designed to promote my new fitness center and Design Alligators delivered beyond my expectations. They listened to my vision and incorporated it into the design flawlessly",
       designation: "- Michael Lee, Owner of Lee's Fitness Center",
     },
     {
-      bgColor: "#132524",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I have worked with Design Alligators for several events and have always been impressed with their work. They have designed multiple flyers for me and each time they have exceeded my expectations.",
@@ -47,7 +47,7 @@ const index = () => {
           name="description"
           content="Give us a call today for a custom flyer design service. We are providing affordable flyer design service in USA."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/flyer-design"
           key="canonical"

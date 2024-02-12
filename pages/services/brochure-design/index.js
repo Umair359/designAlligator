@@ -16,21 +16,21 @@ import BrochureDesignPortfolio from "../../../components/Services/BrochureDesign
 const index = () => {
   const data = [
     {
-      bgColor: "#c78024",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I am so impressed with the brochure Design Alligators created for our business. The team worked closely with us to capture the essence of our brand and bring our vision to life. Thank you, Design Alligators!",
+        "I am so impressed with the brochure Design Alligators created for our business. The team worked closely with us to capture the essence of our brand and bring our vision to life. Thank you, Design Alligators!",
       designation: "- John Smith, CEO of Alteria",
     },
     {
-      bgColor: "#00384b",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "I have worked with several design agencies in the past, but Design Alligators stands out from the rest. Their team is professional, responsive, and talented.",
-        designation:"- Sarah Johnson, Marketing Manager at ABC Corp"
+      designation: "- Sarah Johnson, Marketing Manager at ABC Corp"
     },
     {
-      bgColor: "#133965",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I needed a brochure created in a hurry for an upcoming event, and Design Alligators came through for me. They provided lightning-fast service without compromising on quality. I highly recommend Design Alligators for all your design needs.",
@@ -46,7 +46,7 @@ const index = () => {
           name="description"
           content="Get Professional Brochure Design Services in New Jersey. Our experts create eye-catching and effective designs to help you showcase your brand and services."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/brochure-design"
           key="canonical"
@@ -59,8 +59,8 @@ const index = () => {
         <BestBrochureDesignServices />
       </div>
       <BrochureServices />
-        <BrochureDesignPortfolio />
-      <Testimonial data={data}/>
+      <BrochureDesignPortfolio />
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

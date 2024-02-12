@@ -16,21 +16,21 @@ import Testimonial3 from "../../../public/images/WebAppDev/testimonial-3.png"
 const index = () => {
   const data = [
     {
-      bgColor: "#50320c",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I am so grateful for the exceptional Web Application Development Services provided by Design Alligators. Their team was responsive, professional, and innovative in their approach to building my website. I highly recommend them!",
+        "I am so grateful for the exceptional Web Application Development Services provided by Design Alligators. Their team was responsive, professional, and innovative in their approach to building my website. I highly recommend them!",
       designation: "- Meryl Ferguson, Owner of Xetra",
     },
     {
-      bgColor: "#060059",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators has been an invaluable partner in our business's success. Their Web Application Development expertise allowed us to create a unique, user-friendly platform that has helped us grow and thrive. Thank you, Design Alligators!",
-        designation:"- Ron Smith, Marketing Manager at Ronalds"
+      designation: "- Ron Smith, Marketing Manager at Ronalds"
     },
     {
-      bgColor: "#00062b",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I was impressed with the speed and quality of service I received from Design Alligators. Their team was friendly, knowledgeable, and patient in guiding me through the entire Web Application Development process. I couldn't be happier with the final result.",
@@ -48,23 +48,23 @@ const index = () => {
           name="description"
           content="Design Alligators is a known Web Application Development Company for providing Professional Web Application Development Services."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/web-app-development"
           key="canonical"
         />
       </Head>
-        <Banner />
-        <div className="Logo_designers_background">
-            <WebAppApproach />
-            <WebDevProcess />
-        </div>
-        <WebAppDevServices />
-            <WebAppSlider />
-            <Testimonial data={data}/>
-            <Achievements />
-            <OurClients />
-            <HomeContact />
+      <Banner />
+      <div className="Logo_designers_background">
+        <WebAppApproach />
+        <WebDevProcess />
+      </div>
+      <WebAppDevServices />
+      <WebAppSlider />
+      <Testimonial data={data} />
+      <Achievements />
+      <OurClients />
+      <HomeContact />
     </div>
   )
 }

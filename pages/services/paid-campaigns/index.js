@@ -17,21 +17,21 @@ import Testimonial3 from "../../../public/images/PPC/testimonial-3.png"
 const index = () => {
   const data = [
     {
-      bgColor: "#341d00",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I cannot recommend Design Alligators enough for their outstanding Web Redesign Services. They transformed our outdated website into a modern and visually stunning platform that truly represents our brand!",
+        "I cannot recommend Design Alligators enough for their outstanding Web Redesign Services. They transformed our outdated website into a modern and visually stunning platform that truly represents our brand!",
       designation: "- Alex Lee, Marketing Director at GreenLife",
     },
     {
-      bgColor: "#000000",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Working with Design Alligators for our Website Redesign was a seamless and enjoyable experience. They took the time to understand our goals and vision for the website and delivered beyond our expectations.",
-        designation:"- Samantha Hernandez, CEO at Spark Agency"
+      designation: "- Samantha Hernandez, CEO at Spark Agency"
     },
     {
-      bgColor: "#161117",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "Design Alligators exceeded our expectations with their Web Redesign Services. They not only enhanced the website's aesthetics but also optimized its functionality and user experience.",
@@ -49,7 +49,7 @@ const index = () => {
           name="description"
           content="Our Google Certified experts can cut your PPC Marketing costs in half. Get Best PPC Services In USA for managing Paid Search Campaigns."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/paid-campaigns"
           key="canonical"
@@ -63,7 +63,7 @@ const index = () => {
       </div>
       <WhyChooseUsForPPC />
       <PPCSlider />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

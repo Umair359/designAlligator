@@ -17,21 +17,21 @@ import Testimonial3 from "../../../public/images/MenuDesign/testimonial-3.png"
 const index = () => {
   const data = [
     {
-      bgColor: "#feba01",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I worked with Design Alligators to create a menu design for my restaurant, and I was blown away by their attention to detail and creativity.",
+        "I worked with Design Alligators to create a menu design for my restaurant, and I was blown away by their attention to detail and creativity.",
       designation: "- John Smith, Owner of Smith's Restaurant",
     },
     {
-      bgColor: "#9a1e20",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "Design Alligators created a custom menu design for our bar, which turned out amazing! The team was responsive, professional, and really listened to our needs.",
-        designation:"- Sarah Johnson, Manager of The Pour House"
+      designation: "- Sarah Johnson, Manager of The Pour House"
     },
     {
-      bgColor: "#14131b",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "I was in a rush to get a menu design done for my restaurant, and Design Alligators came through for me in a big way.",
@@ -42,14 +42,14 @@ const index = () => {
     <div>
       <Head>
         <title>
-        Affordable Custom Menu Design Services | Design Alligators
+          Affordable Custom Menu Design Services | Design Alligators
         </title>
         <link rel="icon" href="/favicon2.png" />
         <meta
           name="description"
           content="Get Noticed with Affordable Custom Menu Design Services - Click Here for Eye-Catching Menus That Impress! Stand out with our Expert Menu Designers."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/menu-design"
           key="canonical"
@@ -57,13 +57,13 @@ const index = () => {
       </Head>
       <Banner />
       <div className="Logo_designers_background">
-      <MenuDesignInfo />
-      <MenuDesignProcess />
-      <BestMenuDesignServices />
+        <MenuDesignInfo />
+        <MenuDesignProcess />
+        <BestMenuDesignServices />
       </div>
       <MenuDesignServices />
       <MenuDesignPortfolio />
-      <Testimonial data={data}/>
+      <Testimonial data={data} />
       <Achievements />
       <OurClients />
       <HomeContact />

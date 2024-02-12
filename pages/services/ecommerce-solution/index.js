@@ -16,21 +16,21 @@ import Testimonial3 from "../../../public/images/EcommerceSolution/testimonial-3
 const index = () => {
   const data = [
     {
-      bgColor: "linear-gradient(to right,#8CACAC,#AF8C9D)",
+      bgColor: "white",
       person: Testimonial1,
       comment:
-      "I am so grateful to Design Alligators for creating an amazing eCommerce website for my business! The team took the time to understand my vision and turned it into a reality. Their attention to detail and professionalism was top-notch.",
+        "I am so grateful to Design Alligators for creating an amazing eCommerce website for my business! The team took the time to understand my vision and turned it into a reality. Their attention to detail and professionalism was top-notch.",
       designation: "- Sarah Smith, owner of Sarah's Boutique",
     },
     {
-      bgColor: "linear-gradient(to right,#04619F,#000000)",
+      bgColor: "white",
       person: Testimonial2,
       comment:
         "I was blown away by the incredible eCommerce Development Services provided by Design Alligators. The team was easy to work with, communicated clearly throughout the entire process, and delivered a website that exceeded my expectations",
       designation: "- John Doe, owner of Doe's Electronics",
     },
     {
-      bgColor: "#ff6d1a",
+      bgColor: "white",
       person: Testimonial3,
       comment:
         "Design Alligators is hands down the best eCommerce Development Agency out there! Their team of experts went above and beyond to ensure that my website was functional and visually stunning",
@@ -41,31 +41,31 @@ const index = () => {
     <div className='service_page'>
       <Head>
         <title>
-        Ecommerce Development Services in USA | Design Alligators 
+          Ecommerce Development Services in USA | Design Alligators
         </title>
         <link rel="icon" href="/favicon2.png" />
         <meta
           name="description"
           content="Get your custom ecommerce store developed from best ecommerce website development agency."
         />
-         <link
+        <link
           rel="canonical"
           href="https://designalligators.com/services/ecommerce-solution"
           key="canonical"
         />
       </Head>
-        <Banner />
-        <div className="Logo_designers_background">
+      <Banner />
+      <div className="Logo_designers_background">
         <EcommerceInfo />
         <EcommerceProcess />
         <EasyPayment />
-        </div>          
-        <WhyChooseForEcommerce />
-        <EcommerceSlider />
-        <Testimonial data={data}/>
-        <Achievements />
-        <OurClients />
-        <HomeContact />
+      </div>
+      <WhyChooseForEcommerce />
+      <EcommerceSlider />
+      <Testimonial data={data} />
+      <Achievements />
+      <OurClients />
+      <HomeContact />
     </div>
   )
 }
