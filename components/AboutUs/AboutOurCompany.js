@@ -8,7 +8,7 @@ import Link from "next/link";
 const AboutOurCompany = () => {
   return (
     <div className="about_our_company_main">
-      <Container fluid className="w-90">
+      <Container fluid className="w-90 bg-white ">
         <Row className="py-5 about_our_company">
           <Col className="about-content-container" md={12} lg={7}>
             <h5 className="text-green">
@@ -26,7 +26,7 @@ const AboutOurCompany = () => {
               <Link href="/">Digital Design Company</Link> has been making waves in the
               industry for years, providing top-notch <Link href="services/website-development">Website Development Services</Link>,{" "}
               <Link href="services/mobile-application-development">Mobile App Development Services</Link>, <Link href="services/video-animation">Video Animation Services</Link>, and <Link href="services/website-ui-ux-design">Website Design
-              Services</Link>.
+                Services</Link>.
             </p>
             <p>
               Our designs are as fierce as our namesake, and our client
