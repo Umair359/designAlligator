@@ -128,7 +128,7 @@ export const sliderSettings4 = {
   ],
 }
 export const sliderSettings3 = {
-  dots: true,
+  dots: false,
   infinite: true,
   draggable: true,
   autoplay: false,

@@ -37,6 +37,27 @@ const index = () => {
         "We have worked with Design Alligators on multiple poster design projects and have been consistently impressed with their creativity. They are a pleasure to work with and always go above and beyond to ensure we are satisfied with the final product.",
       designation: " - Sarah Johnson, XYZ Corporation.",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "Design Alligators truly exceeded our expectations with their Poster Design Services. They captured the essence of our brand and transformed it into an eye-catching design that effectively promoted our event. We were thrilled with the results.",
+      designation: "- Jane Smith, ABC Events",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "As a small business owner, I hesitated to invest in professional Poster Design Services. However, Design Alligators' affordable pricing and expert design skills made it an easy decision.",
+      designation: "- John Doe, Doe's Bakery"
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "We have worked with Design Alligators on multiple poster design projects and have been consistently impressed with their creativity. They are a pleasure to work with and always go above and beyond to ensure we are satisfied with the final product.",
+      designation: " - Sarah Johnson, XYZ Corporation.",
+    },
   ];
   return (
     <div>

@@ -37,6 +37,27 @@ const index = () => {
         "Design Alligators truly went above and beyond for my mobile application design project. Their team was creative, innovative, and always willing to take on new challenges. They provided excellent communication throughout the process and were extremely responsive to all of my requests. The final product was top-notch and exceeded my expectations. I would highly recommend their services to anyone looking for exceptional mobile application design.",
       designation: " - Michael Lee",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "I had an amazing experience working with Design Alligators for my mobile application design needs. The team was professional, attentive to detail, and truly understood my vision for the app. They provided timely updates and delivered the final product ahead of schedule. I would highly recommend their services to anyone looking for high-quality mobile application design.",
+      designation: "- John Smith",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "Design Alligators exceeded my expectations with their mobile application design services. Their team worked closely with me throughout the entire process, ensuring that my vision for the app was accurately reflected in the final design. They were able to incorporate all of my ideas and suggestions seamlessly, resulting in a stunning and user-friendly application. I couldn't be happier with the outcome!",
+      designation: "- Holly Anderson",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "Design Alligators truly went above and beyond for my mobile application design project. Their team was creative, innovative, and always willing to take on new challenges. They provided excellent communication throughout the process and were extremely responsive to all of my requests. The final product was top-notch and exceeded my expectations. I would highly recommend their services to anyone looking for exceptional mobile application design.",
+      designation: " - Michael Lee",
+    },
   ];
   return (
     <div className="service_page">

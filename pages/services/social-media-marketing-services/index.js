@@ -37,6 +37,27 @@ const index = () => {
         "As the founder of a small business, I was hesitant to invest in Social Media Marketing Services. But after working with Design Alligators, I can confidently say that it was the best decision I ever made for my business.",
       designation: "- Maria Martinez, Owner at CC Cometics",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "I highly recommend Design Alligators' Social Media Marketing Services to anyone looking to expand their business online. Their team is professional, creative, and always updated with social media trends.",
+      designation: "- Mario Fernandez,  Senior Marketer at JC",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "Design Alligators' SMM Agency is hands down the best in the business. Their team is knowledgeable, efficient, and genuinely cares about helping our business grow. We've worked with other social media agencies but they are the best.",
+      designation: "- John Smith, Owner at Farlow Smiths",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "As the founder of a small business, I was hesitant to invest in Social Media Marketing Services. But after working with Design Alligators, I can confidently say that it was the best decision I ever made for my business.",
+      designation: "- Maria Martinez, Owner at CC Cometics",
+    },
   ];
   return (
     <div className='service_page'>

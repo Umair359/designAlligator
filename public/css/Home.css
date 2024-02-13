@@ -542,7 +542,7 @@
   transition: all 0.5s ease;
 }
 .porfolio-slide:hover {
-  filter: brightness(2.5);
+  filter: brightness(2);
 }
 .portfolio_image_container > img {
   width: 120%;
@@ -593,7 +593,7 @@
   transition: all 0.5s ease;
 }
 .portfolio_content_container button:hover {
-  font-size: 16px;
+  transform: scale(1.05);
 }
 @media (max-width: 1600px) {
   .portfolio_content_container {
@@ -737,6 +737,9 @@
 .testimonial-comment {
   color: black !important;
   font-size: 12px !important;
+}
+.testimonial-comment {
+  height: 100px;
 }
 
 @media (max-width: 1099px) {
@@ -1404,7 +1407,6 @@
   background-image: whtie;
   font-weight: 500;
   border: none;
-  padding: 10px 30%;
   border-radius: 10px;
   color: white;
   font-size: 18px;
@@ -1781,6 +1783,8 @@
 }
 .home-info > div:first-child {
   text-align: center;
+  width: 94%;
+  margin: auto;
 }
 .home-info > div:first-child > h3 {
   font-weight: bold;
@@ -1796,7 +1800,7 @@
 }
 .home-info > div:nth-child(2) {
   gap: 30px;
-  width: 94%;
+  width: 100%;
   margin: auto;
   margin-top: 60px;
 }
@@ -1819,7 +1823,8 @@
 }
 @media (max-width: 1440px) {
   .home-info {
-    width: 1200px;
+    width: auto;
+    margin-top: 200px;
   }
 }
 @media (max-width: 1250px) {
@@ -1872,7 +1877,12 @@
   gap: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
+  transition: all 0.5s ease;
   transform: scale(0.95);
+}
+.service-slider-item:hover {
+  transform: scale(1);
+  cursor: pointer;
 }
 .service-slider-item::before {
   content: "";
@@ -2204,6 +2214,11 @@
 .portfolio-slide {
   height: 650px;
 }
+@media (max-width: 1440px) {
+  .portfolio-slide {
+    height: 470px;
+  }
+}
 .portfolio-slide::before,
 .portfolio-slide::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
@@ -2238,6 +2253,12 @@
   width: 500px;
   height: 250px;
 }
+.home-info-slider::before,
+.home-info-slider::after {
+  height: 0px;
+  width: 0px;
+}
+
 .testimonial_slider_main .slick-slide.slick-active {
   max-width: 25% !important;
   min-width: 300px !important;

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import LogoWhite from "../../public/images/logo-white.webp";
 import { FaPhoneAlt } from "react-icons/fa";

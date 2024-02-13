@@ -36,6 +36,28 @@ const index = () => {
         "Design Alligators exceeded our expectations with their Web Redesign Services. They not only enhanced the website's aesthetics but also optimized its functionality and user experience.",
       designation: "- John Doe, COO at TechNation",
     },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "I cannot recommend Design Alligators enough for their outstanding Web Redesign Services. They transformed our outdated website into a modern and visually stunning platform that truly represents our brand!",
+      designation: "- Alex Lee, Marketing Director at GreenLife",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+
+      comment:
+        "Working with Design Alligators for our Website Redesign was a seamless and enjoyable experience. They took the time to understand our goals and vision for the website and delivered beyond our expectations.",
+      designation: "Samantha Hernandez, CEO at Spark Agency",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial4,
+      comment:
+        "Design Alligators exceeded our expectations with their Web Redesign Services. They not only enhanced the website's aesthetics but also optimized its functionality and user experience.",
+      designation: "- John Doe, COO at TechNation",
+    },
   ];
   return (
     <div className="service_page">

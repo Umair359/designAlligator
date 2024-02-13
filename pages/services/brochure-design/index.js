@@ -36,6 +36,27 @@ const index = () => {
         "I needed a brochure created in a hurry for an upcoming event, and Design Alligators came through for me. They provided lightning-fast service without compromising on quality. I highly recommend Design Alligators for all your design needs.",
       designation: " - Tom Lee, Event Organizer at TL Event Planning",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "I am so impressed with the brochure Design Alligators created for our business. The team worked closely with us to capture the essence of our brand and bring our vision to life. Thank you, Design Alligators!",
+      designation: "- John Smith, CEO of Alteria",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "I have worked with several design agencies in the past, but Design Alligators stands out from the rest. Their team is professional, responsive, and talented.",
+      designation: "- Sarah Johnson, Marketing Manager at ABC Corp"
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "I needed a brochure created in a hurry for an upcoming event, and Design Alligators came through for me. They provided lightning-fast service without compromising on quality. I highly recommend Design Alligators for all your design needs.",
+      designation: " - Tom Lee, Event Organizer at TL Event Planning",
+    },
   ];
   return (
     <div className="service_page">

@@ -36,6 +36,27 @@ const index = () => {
         "I had been hesitant to invest in a website design for my small business, but after working with Design Alligators, I can confidently say that it was the best decision I made for my business.",
       designation: "- Samantha Lee, owner of Lee's Boutique",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "Working with Design Alligators was a fantastic experience. Their team took my outdated website and transformed it into a modern and sleek platform that truly represents my business!",
+      designation: "- Sarah Smith, CEO of Smith Consulting Firm",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "I had been struggling with my website for months, trying to redesign it myself with no success. Design Alligators came to my rescue and provided me with not only a beautiful website but also excellent customer service.",
+      designation: "- John Doe, owner of Doe's Bakery"
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "I had been hesitant to invest in a website design for my small business, but after working with Design Alligators, I can confidently say that it was the best decision I made for my business.",
+      designation: "- Samantha Lee, owner of Lee's Boutique",
+    },
   ];
   return (
     <div className="service_page">

@@ -37,6 +37,27 @@ const index = () => {
         "I had a very specific vision in mind for my custom t-shirt design, and Design Alligators exceeded my expectations. They brought my idea to life and created a truly unique shirt that I'm proud to wear. Their attention to detail and commitment to customer service was exceptional.",
       designation: "- James Henry, freelance graphic designer",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "I was blown away by the quality of the custom t-shirts that Design Alligators created for my business. They brought my logo to life and ensured everything was perfect. I can't recommend them enough!",
+      designation: "- Hailey Doe, owner of HD's Coffee Shop",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "Design Alligators made the entire t-shirt design process a breeze. Their team was so helpful and responsive, and they could turn around our order so quickly. We were extremely happy with the final product and will definitely use them again.",
+      designation: "- John Smith, event planner at J&J Events",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "I had a very specific vision in mind for my custom t-shirt design, and Design Alligators exceeded my expectations. They brought my idea to life and created a truly unique shirt that I'm proud to wear. Their attention to detail and commitment to customer service was exceptional.",
+      designation: "- James Henry, freelance graphic designer",
+    },
   ];
   return (
     <div className="service_page">

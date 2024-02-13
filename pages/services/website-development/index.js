@@ -39,6 +39,27 @@ const index = () => {
         "Design Alligators truly went above and beyond to ensure that my website was exactly what I wanted. Their custom web development services are top-notch, and their team of incredibly talented web developers.",
       designation: "- Emily Rodriguez, Head of Marketing at Xiou",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "Design Alligators turned my website dreams into a reality! Their professional web developers listened to my vision and created a stunning website that perfectly reflects my brand. I couldn't be happier with their web development services.",
+      designation: "- Sarah Johnson, Owner of Sarah’s Bakery",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "I had a terrible experience with another web development company before I found Design Alligators. Their team completely turned things around and delivered a website that exceeded my expectations.",
+      designation: "- John Davis, CEO of MAK Enterprises",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "Design Alligators truly went above and beyond to ensure that my website was exactly what I wanted. Their custom web development services are top-notch, and their team of incredibly talented web developers.",
+      designation: "- Emily Rodriguez, Head of Marketing at Xiou",
+    },
   ];
   return (
     <div className="service_page">

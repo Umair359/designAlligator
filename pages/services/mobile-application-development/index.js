@@ -39,6 +39,27 @@ const index = () => {
         "I cannot thank Design Alligators enough for the incredible Mobile App they created for my business. They worked tirelessly to ensure that every aspect of the App was perfect, and the result is a visually stunning and highly functional Mobile App that has boosted my business.",
       designation: "- Emily Chen, Founder of Emily's Food Delivery",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "I am thrilled with the Mobile Application Design Alligators created for my business! The team listened carefully to my requirements and ideas and created a stunning, user-friendly, high-performing Mobile App that exceeded my expectations.",
+      designation: "- Sarah Jones, Owner of Sarah's Boutique",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "Design Alligators is a talented and professional Mobile App Development Agency. They provided excellent service from start to finish and were always available to answer my questions and concerns",
+      designation: "- John Smith, CEO of Smith Enterprises"
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "I cannot thank Design Alligators enough for the incredible Mobile App they created for my business. They worked tirelessly to ensure that every aspect of the App was perfect, and the result is a visually stunning and highly functional Mobile App that has boosted my business.",
+      designation: "- Emily Chen, Founder of Emily's Food Delivery",
+    },
   ];
   return (
     <div className="service_page">

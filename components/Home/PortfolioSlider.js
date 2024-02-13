@@ -54,6 +54,24 @@ const portfolioData = [
     link: "/portfolios"
 
   },
+  {
+    image: Portfolio8,
+    title: "Product Design",
+    link: "/portfolios"
+
+  },
+  {
+    image: Portfolio8,
+    title: "Product Design",
+    link: "/portfolios"
+
+  },
+  {
+    image: Portfolio8,
+    title: "Product Design",
+    link: "/portfolios"
+
+  },
 ];
 const PortfolioSlider = () => {
   const router = useRouter()

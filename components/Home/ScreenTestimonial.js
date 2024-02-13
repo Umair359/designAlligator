@@ -29,7 +29,6 @@ function ScreenTestimonial({ d }) {
             <h4 style={{ fontSize: "14px", color: "#444444 !important" }} className="pt-2 testimonial-designation">
               {d.designation}
             </h4>
-            <h5 style={{ fontSize: "13px", color: "#999999", fontWeight: "400" }} >1 Day Ago</h5>
           </div>
 
 

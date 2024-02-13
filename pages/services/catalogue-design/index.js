@@ -37,6 +37,27 @@ const index = () => {
         "I am so happy I chose Design Alligators for my catalogue design needs. They could turn my scattered ideas into a cohesive and visually stunning catalogue. The team was patient, communicative, and willing to make revisions until I was completely satisfied with the final product.",
       designation: " - Lisa Chen, Founder of Little Sprouts Children's Boutique",
     },
+    {
+      bgColor: "white",
+      person: Testimonial1,
+      comment:
+        "I was blown away by the Catalogue Design Services provided by Design Alligators. The team listened to my vision and brought it to life in a way that exceeded my expectations. The design was visually stunning and easy to navigate, making it a pleasure for customers to use!",
+      designation: "- Rachel Jones, Owner of Jones Fine Jewelry",
+    },
+    {
+      bgColor: "white",
+      person: Testimonial2,
+      comment:
+        "Design Alligators did an amazing job with our Catalogue Design. The team was responsive, professional, and took the time to understand our brand and target audience. The final product was functional and beautiful, and we have received numerous compliments on its design.",
+      designation: "- John Kim, Marketing Director at Zenith Electronics"
+    },
+    {
+      bgColor: "white",
+      person: Testimonial3,
+      comment:
+        "I am so happy I chose Design Alligators for my catalogue design needs. They could turn my scattered ideas into a cohesive and visually stunning catalogue. The team was patient, communicative, and willing to make revisions until I was completely satisfied with the final product.",
+      designation: " - Lisa Chen, Founder of Little Sprouts Children's Boutique",
+    },
   ];
   return (
     <div>
